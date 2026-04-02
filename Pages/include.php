@@ -103,6 +103,10 @@
                     <p>Contact</p>
                 </a>
 
+                <img src='facebook.webp' alt='Facebook Icon'>
+                <img src='instagram.webp' alt='Instagram Icon'>
+                <img src='youtube.webp' alt='Youtube Icon'>
+
                 <p>Arlington Life Shelter is a 501(c)3 organization. Tax Identification 75-2235099.</p>
             </div>
 

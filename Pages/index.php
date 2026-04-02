@@ -123,7 +123,8 @@
             display: flex;
             justify-content: center;
             align-items: flex-start;
-            gap: 100px;
+
+            gap: 300px;
             margin: 20px auto;
             max-width: 900px;
         }
@@ -136,8 +137,10 @@
             width: 40%;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+
             gap: 10px;
             padding: 12px;
+
             border: 2px solid #ccc;
             border-radius: 6px;
             background: #fafafa;
@@ -147,6 +150,7 @@
         .footer2 img {
             width: 100%;
             height: auto;
+
             object-fit: contain;
             border: 1px solid #ddd;
             padding: 4px;
@@ -157,6 +161,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            
             margin-top: 25px;
             max-width: 900px;
             margin-left: auto;
