@@ -128,6 +128,8 @@
             height: auto;
             object-fit: contain;
             display: block;
+
+            filter: brightness(60%);
         }
 
         .text-overlay {
@@ -135,10 +137,13 @@
             top: 40%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 2.2rem;
-            font-weight: bold;
-            text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
-            text-align: center;
+
+            font-size: 2rem;
+            font-weight: 900;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 10px;
+            text-shadow: 4px 4px 12px rgba(0,0,0,0.9);
         }
 
         .slide-btn {
