@@ -36,8 +36,8 @@
                         <a href='#'>Resources ▸</a>
 
                         <ul class='dropdown-submenu'>
-                            <li><a href='#'>Resource A</a></li>
-                            <li><a href='#'>Resource B</a></li>
+                            <li><a href='#'>Myths About Homelessness</a></li>
+                            <li><a href='#'>Community Resources</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -56,8 +56,8 @@
                         <a href='#'>Volunteer ▸</a>
 
                         <ul class='dropdown-submenu'>
-                            <li><a href='#'>Volunteer Option 1</a></li>
-                            <li><a href='#'>Volunteer Option 2</a></li>
+                            <li><a href='#'>Volunteer Opportunities</a></li>
+                            <li><a href='#'>Partners of the Arlington Life Shelter (PALS)</a></li>
                         </ul>
                     </li>
 
@@ -65,7 +65,7 @@
                         <a href='#'>Tour Arlington Life Shelter ▸</a>
 
                         <ul class='dropdown-submenu'>
-                            <li><a href='#'>Schedule a Tour</a></li>
+                            <li><a href='#'>Virtual Tour</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -89,9 +89,6 @@
 
     $footer =
     "<footer>
-        <hr>
-
-
         <div class='footerTop'>
             <div class='footer1'>
                 <p>Arlington Life Shelter</p>
@@ -124,7 +121,7 @@
 
 
         <div class='footer3'>
-            <p>Privac Policy</p>
+            <p>Privacy Policy</p>
 
             <p>© 2026 Arlington Life Shelter</p>
 
