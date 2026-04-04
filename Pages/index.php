@@ -9,7 +9,6 @@
     <title>Arlington Life Shelter</title>
 
     <style>
-        /* --- Existing styles kept --- */
         header {
             padding: 10px 0;
             margin: 0;
@@ -126,6 +125,8 @@
                 height: auto;
                 object-fit: contain;
                 display: block;
+
+                filter: brightness(60%);
             }
 
         .text-overlay {
@@ -133,6 +134,8 @@
             top: 40%;
             left: 50%;
             transform: translate(-50%, -50%);
+
+            color: white;
             font-size: 2.2rem;
             font-weight: bold;
             text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
@@ -218,6 +221,68 @@
             padding: 40px 80px;
         }
 
+        .footerTop {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 300px;
+            margin: 20px auto;
+            max-width: 900px;
+        }
+
+        .footer1 {
+            width: 40%;
+        }
+
+        .footer2 {
+            width: 40%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            padding: 12px;
+            border: 2px solid #ccc;
+            border-radius: 6px;
+            background: #fafafa;
+            max-width: 260px;
+        }
+
+        .footer2 img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            border: 1px solid #ddd;
+            padding: 4px;
+            background: white;
+        }
+
+        .footer3 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 25px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .footer3 p {
+            width: 33%;
+            margin: 0;
+        }
+
+        .footer3 p:nth-child(1) {
+            text-align: left;
+        }
+
+        .footer3 p:nth-child(2) {
+            text-align: center;
+        }
+
+        .footer3 p:nth-child(3) {
+            text-align: right;
+        }
+
+
         header,
         nav,
         .slideshow-container {
@@ -249,7 +314,7 @@
     <?php echo $headerLogo ?>
     <?php echo $navLinks ?>
 
-    <!-- Existing Slideshow -->
+
     <div class="slideshow-container">
         <div class="slide fade">
             <img src="slide.webp">
@@ -266,6 +331,7 @@
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+
 
     <script>
         let slideIndex = 0;
@@ -288,10 +354,12 @@
         }
     </script>
 
+
     <!-- Mission Statement  -->
     <div style="text-align:center; max-width:800px; margin:50px auto 20px auto; font-size:25px;">
-        <strong>Mission:</strong> The mission of Arlington Life Shelter is to promote self-sufficiency by providing shelter,
-        employment programs, and transitional services for North Texans impacted by homelessness.
+        <strong>Mission:</strong> 
+        <p>The mission of Arlington Life Shelter is to promote self-sufficiency by providing shelter,
+        employment programs, and transitional services for North Texans impacted by homelessness.</p>
     </div>
 
     <!-- Cards Start -->
@@ -420,6 +488,8 @@
     </div>
     <!-- Cards Section End -->
     <!-- Hover Effect Script -->
+
+
     <script>
         var cards = document.getElementsByClassName("card");
 
@@ -437,9 +507,11 @@
         }
     </script>
 
+
     <div class='motto'>
         <p>A New Day.  A New Home.  A New Life.</p>
     </div>
+
 
     <?php echo $footer ?>
 </body>
