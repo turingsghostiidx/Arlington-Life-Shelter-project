@@ -14,13 +14,13 @@
                 <a href='#'>Who We Are</a>
 
                 <ul class='dropdown-menu'>
-                    <li><a href='#'>Mission & History</a></li>
-                    <li><a href='#'>Frequent Questions</a></li>
-                    <li><a href='#'>Leadership & Board</a></li>
-                    <li><a href='#'>Financials</a></li>
-                    <li><a href='#'>Locations</a></li>
-                    <li><a href='#'>Job Opportunities</a></li>
-                    <li><a href='#'>Contact Us</a></li>
+                    <li><a href='mission-history.php'>Mission & History</a></li>
+                    <li><a href='frequent-questions.php'>Frequent Questions</a></li>
+                    <li><a href='leadership-board.php'>Leadership & Board</a></li>
+                    <li><a href='financials.php'>Financials</a></li>
+                    <li><a href='locations.php'>Locations</a></li>
+                    <li><a href='job-opportunities.php'>Job Opportunities</a></li>
+                    <li><a href='contact-us.php'>Contact Us</a></li>
                 </ul>
             </li>
 
@@ -28,16 +28,16 @@
                 <a href='#'>How We Help</a>
 
                 <ul class='dropdown-menu'>
-                    <li><a href='#'>Programs & Services</a></li>
-                    <li><a href='#'>Results</a></li>
-                    <li><a href='#'>Entrance Requirements</a></li>
+                    <li><a href='programs-services.php'>Programs & Services</a></li>
+                    <li><a href='results.php'>Results</a></li>
+                    <li><a href='entrance-requirements.php'>Entrance Requirements</a></li>
 
                     <li class='dropdown-sub'>
                         <a href='#'>Resources ▸</a>
 
                         <ul class='dropdown-submenu'>
-                            <li><a href='#'>Myths About Homelessness</a></li>
-                            <li><a href='#'>Community Resources</a></li>
+                            <li><a href='myths-about-homelessness.php'>Myths About Homelessness</a></li>
+                            <li><a href='community-resources.php'>Community Resources</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -47,17 +47,17 @@
                 <a href='#'>Get Involved</a>
 
                 <ul class='dropdown-menu'>
-                    <li><a href='#'>Make a Gift</a></li>
-                    <li><a href='#'>Immediate Needs</a></li>
-                    <li><a href='#'>Path of Kindness - Buy a Brick</a></li>
-                    <li><a href='#'>Donation Guidelines</a></li>
+                    <li><a href='make-a-gift.php'>Make a Gift</a></li>
+                    <li><a href='immediate-needs.php'>Immediate Needs</a></li>
+                    <li><a href='path-of-kindness-buy-a-brick.php'>Path of Kindness - Buy a Brick</a></li>
+                    <li><a href='donation-guidelines.php'>Donation Guidelines</a></li>
 
                     <li class='dropdown-sub'>
                         <a href='#'>Volunteer ▸</a>
 
                         <ul class='dropdown-submenu'>
-                            <li><a href='#'>Volunteer Opportunities</a></li>
-                            <li><a href='#'>Partners of the Arlington Life Shelter (PALS)</a></li>
+                            <li><a href='volunteer-opportunities.php'>Volunteer Opportunities</a></li>
+                            <li><a href='PALS.php'>Partners of the Arlington Life Shelter (PALS)</a></li>
                         </ul>
                     </li>
 
@@ -65,7 +65,7 @@
                         <a href='#'>Tour Arlington Life Shelter ▸</a>
 
                         <ul class='dropdown-submenu'>
-                            <li><a href='#'>Virtual Tour</a></li>
+                            <li><a href='virtual-tour.php'>Virtual Tour</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -75,9 +75,9 @@
                 <a href='#'>News & Events</a>
 
                 <ul class='dropdown-menu'>
-                    <li><a href='#'>Newsroom</a></li>
-                    <li><a href='#'>Join Our Mailing List</a></li>
-                    <li><a href='#'>Road Home Luncheon</a></li>
+                    <li><a href='newsroom.php'>Newsroom</a></li>
+                    <li><a href='join-our-mailing-list.php'>Join Our Mailing List</a></li>
+                    <li><a href='road-home-luncheon.php'>Road Home Luncheon</a></li>
                 </ul>
             </li>
 
