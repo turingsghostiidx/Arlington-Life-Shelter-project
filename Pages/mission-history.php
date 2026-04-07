@@ -375,13 +375,13 @@
     <div style="width: 30%; padding: 20px; border-right: 2px solid #ddd;">
 
         <ul style="list-style: none; padding: 0; line-height: 1.8;">
-            <li><a href="m&h.php">Mission & History</a></li>
-            <li><a href="fq.php">Frequent Questions</a></li>
-            <li><a href="l&b.php">Leadership & Board</a></li>
-            <li><a href="financials.php">Financials</a></li>
-            <li><a href="locations.php">Locations</a></li>
-            <li><a href="jo.php">Job Opportunities</a></li>
-            <li><a href="contact.php">Contact Us</a></li>
+            <li><a href='mission-history.php'>Mission & History</a></li>
+            <li><a href='frequent-questions.php'>Frequent Questions</a></li>
+            <li><a href='leadership-board.php'>Leadership & Board</a></li>
+            <li><a href='financials.php'>Financials</a></li>
+            <li><a href='locations.php'>Locations</a></li>
+            <li><a href='job-opportunities.php'>Job Opportunities</a></li>
+            <li><a href='contact-us.php'>Contact Us</a></li>
         </ul>
 
     </div>
