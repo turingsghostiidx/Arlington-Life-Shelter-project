@@ -314,6 +314,42 @@
     <?php echo $headerLogo ?>
     <?php echo $navLinks ?>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            document.querySelectorAll('.dropdown > a').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                        document.querySelectorAll('.dropdown').forEach(d => {
+                            if (d !== this.parentElement) d.classList.remove('active');
+                        });
+
+                        this.parentElement.classList.toggle('active');
+                    });
+                });
+
+                document.querySelectorAll('.dropdown-sub > a').forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+
+                        document.querySelectorAll('.dropdown-sub').forEach(d => {
+                            if (d !== this.parentElement) d.classList.remove('active');
+                        });
+
+                        this.parentElement.classList.toggle('active');
+                    });
+                });
+
+                document.addEventListener('click', function(e) {
+                    if (!e.target.closest('.dropdown')) {
+                        document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('active'));
+                        document.querySelectorAll('.dropdown-sub').forEach(d => d.classList.remove('active'));
+                    }
+                });
+
+            });
+    </script>
+
 
     <div class="slideshow-container">
         <div class="slide fade">
