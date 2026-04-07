@@ -3,7 +3,7 @@
 $headerLogo =
 "<header>
     <a href='index.php'>
-            <img src='images/ALS_Logo.jpg' alt='Arlington Life Shelter Logo'>
+            <img src='/Images/ALS_Logo.jpg' alt='Arlington Life Shelter Logo'>
     </a>
 </header>";
 
@@ -16,13 +16,13 @@ $navLinks =
             <a href='#'>Who We Are</a>
 
                 <ul class='dropdown-menu'>
-                    <li><a href='pages/mission-history.php'>Mission & History</a></li>
-                    <li><a href='pages/frequent-questions.php'>Frequent Questions</a></li>
-                    <li><a href='pages/leadership-board.php'>Leadership & Board</a></li>
-                    <li><a href='pages/financials.php'>Financials</a></li>
-                    <li><a href='pages/locations.php'>Locations</a></li>
-                    <li><a href='pages/job-opportunities.php'>Job Opportunities</a></li>
-                    <li><a href='pages/contact-us.php'>Contact Us</a></li>
+                    <li><a href='/Pages/mission-history.php'>Mission & History</a></li>
+                    <li><a href='/Pages/frequent-questions.php'>Frequent Questions</a></li>
+                    <li><a href='/Pages/leadership-board.php'>Leadership & Board</a></li>
+                    <li><a href='/Pages/financials.php'>Financials</a></li>
+                    <li><a href='/Pages/locations.php'>Locations</a></li>
+                    <li><a href='/Pages/job-opportunities.php'>Job Opportunities</a></li>
+                    <li><a href='/Pages/contact-us.php'>Contact Us</a></li>
                 </ul>
             </li>
 
@@ -30,16 +30,16 @@ $navLinks =
             <a href='#'>How We Help</a>
 
                 <ul class='dropdown-menu'>
-                    <li><a href='pages/programs-services.php'>Programs & Services</a></li>
-                    <li><a href='pages/results.php'>Results</a></li>
-                    <li><a href='pages/entrance-requirements.php'>Entrance Requirements</a></li>
+                    <li><a href='/Pages/programs-services.php'>Programs & Services</a></li>
+                    <li><a href='/Pages/results.php'>Results</a></li>
+                    <li><a href='/Pages/entrance-requirements.php'>Entrance Requirements</a></li>
 
                 <li class='dropdown-sub'>
                     <a href='#'>Resources ▸</a>
 
                         <ul class='dropdown-submenu'>
-                            <li><a href='pages/myths-about-homelessness.php'>Myths About Homelessness</a></li>
-                            <li><a href='pages/community-resources.php'>Community Resources</a></li>
+                            <li><a href='/Pages/myths-about-homelessness.php'>Myths About Homelessness</a></li>
+                            <li><a href='/Pages/community-resources.php'>Community Resources</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -49,17 +49,17 @@ $navLinks =
             <a href='#'>Get Involved</a>
 
                 <ul class='dropdown-menu'>
-                    <li><a href='pages/-a-gift.php'>Make a Gift</a></li>
-                    <li><a href='pages/immediate-needs.php'>Immediate Needs</a></li>
-                    <li><a href='pages/-of-kindness-buy-a-brick.php'>Path of Kindness - Buy a Brick</a></li>
-                    <li><a href='pages/donation-guidelines.php'>Donation Guidelines</a></li>
+                    <li><a href='/Pages/-a-gift.php'>Make a Gift</a></li>
+                    <li><a href='/Pages/immediate-needs.php'>Immediate Needs</a></li>
+                    <li><a href='/Pages/-of-kindness-buy-a-brick.php'>Path of Kindness - Buy a Brick</a></li>
+                    <li><a href='/Pages/donation-guidelines.php'>Donation Guidelines</a></li>
 
                 <li class='dropdown-sub'>
                     <a href='#'>Volunteer ▸</a>
 
                         <ul class='dropdown-submenu'>
-                            <li><a href='pages/volunteer-opportunities.php'>Volunteer Opportunities</a></li>
-                            <li><a href='pages/PALS.php'>Partners of the Arlington Life Shelter (PALS)</a></li>
+                            <li><a href='/Pages/volunteer-opportunities.php'>Volunteer Opportunities</a></li>
+                            <li><a href='/Pages/PALS.php'>Partners of the Arlington Life Shelter (PALS)</a></li>
                         </ul>
                     </li>
 
@@ -67,7 +67,7 @@ $navLinks =
                     <a href='#'>Tour Arlington Life Shelter ▸</a>
 
                         <ul class='dropdown-submenu'>
-                            <li><a href='pages/virtual-tour.php'>Virtual Tour</a></li>
+                            <li><a href='/Pages/virtual-tour.php'>Virtual Tour</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -77,9 +77,9 @@ $navLinks =
             <a href='#'>News & Events</a>
 
                 <ul class='dropdown-menu'>
-                    <li><a href='pages/newsroom.php'>Newsroom</a></li>
-                    <li><a href='pages/join-our-mailing-list.php'>Join Our Mailing List</a></li>
-                    <li><a href='pages/road-home-luncheon.php'>Road Home Luncheon</a></li>
+                    <li><a href='/Pages/newsroom.php'>Newsroom</a></li>
+                    <li><a href='/Pages/join-our-mailing-list.php'>Join Our Mailing List</a></li>
+                    <li><a href='/Pages/road-home-luncheon.php'>Road Home Luncheon</a></li>
                 </ul>
             </li>
 
@@ -88,7 +88,7 @@ $navLinks =
 
 // Shared page footer markup used across the site
 $footer =
-"<footer>
+    "<footer>
     <div class='footerTop'>
         <div class='footer1'>
             <p>Arlington Life Shelter</p>
@@ -100,18 +100,18 @@ $footer =
                 <p>Contact</p>
             </a>
 
-            <img src='images/facebook.webp' alt='Facebook Icon'>
-            <img src='images/instagram.webp' alt='Instagram Icon'>
-            <img src='images/youtube.webp' alt='Youtube Icon'>
+            <img src='/Images/facebook.webp' alt='Facebook Icon'>
+            <img src='/Images/instagram.webp' alt='Instagram Icon'>
+            <img src='/Images/youtube.webp' alt='Youtube Icon'>
 
             <p>Arlington Life Shelter is a 501(c)3 organization. Tax Identification 75-2235099.</p>
         </div>
 
         <div class='footer2'>
-            <img src='images/EIGLogo.webp' alt='Excellence in Giving Certified Transparent'>
-            <img src='images/CharityNav.webp' alt='Charity Navigator - Three-Star'>
-            <img src='images/silver.webp' alt='Silver Transparancy 2024 - Candid'>
-            <img src='images/Chamber.webp' alt='Greater Arlington Chamber of Commerce'>
+            <img src='/Images/EIGLogo.webp' alt='Excellence in Giving Certified Transparent'>
+            <img src='/Images/CharityNav.webp' alt='Charity Navigator - Three-Star'>
+            <img src='/Images/silver.webp' alt='Silver Transparancy 2024 - Candid'>
+            <img src='/Images/Chamber.webp' alt='Greater Arlington Chamber of Commerce'>
         </div>
     </div>
 

@@ -12,7 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="pages/style.css">
+    <link rel="stylesheet" href="style.css">
+    include
 </head>
 
 <body>
@@ -59,13 +60,13 @@
 <!-- Hero slideshow -->
 <div class="slideshow-container">
     <div class="slide fade">
-        <img src="images/slide.webp">
+        <img src="/Images/slide.webp">
         <div class="text-overlay">A New Day. A New Home. A New Life.</div>
         <a href="#" class="slide-btn">Make a Gift Today</a>
     </div>
 
     <div class="slide fade">
-        <img src="images/resources.jpg">
+        <img src="/Images/resources.jpg">
         <div class="text-overlay">Immediate Needs</div>
         <a href="#" class="slide-btn">Learn More</a>
     </div>
@@ -119,7 +120,7 @@
             <div class="card" style="
                     width:250px;
                     height:250px;
-                    background-image:url('images/programs.jpeg');
+                    background-image:url('/Images/programs.jpeg');
                     background-size:cover;
                     background-position:center;
                     display:flex;
