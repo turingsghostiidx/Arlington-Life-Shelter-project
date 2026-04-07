@@ -119,7 +119,7 @@
             <div class="card" style="
                     width:250px;
                     height:250px;
-                    background-image:url('programs.jpeg');
+                    background-image:url('images/programs.jpeg');
                     background-size:cover;
                     background-position:center;
                     display:flex;
@@ -149,7 +149,7 @@
             <div class="card" style="
                     width:250px;
                     height:250px;
-                    background-image:url('resources.jpeg');
+                    background-image:url('images/resources.jpeg');
                     background-size:cover;
                     background-position:center;
                     display:flex;
@@ -179,7 +179,7 @@
             <div class="card" style="
                     width:250px;
                     height:250px;
-                    background-image:url('donate.jpeg');
+                    background-image:url('images/donate.jpeg');
                     background-size:cover;
                     background-position:center;
                     display:flex;
@@ -208,7 +208,7 @@
             <div class="card" style="
                     width:250px;
                     height:250px;
-                    background-image:url('history.jpeg');
+                    background-image:url('images/history.jpeg');
                     background-size:cover;
                     background-position:center;
                     display:flex;
