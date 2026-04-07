@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pages/style.css">
 </head>
 
 <body>
@@ -59,13 +59,13 @@
 <!-- Hero slideshow -->
 <div class="slideshow-container">
     <div class="slide fade">
-        <img src="slide.webp">
+        <img src="images/slide.webp">
         <div class="text-overlay">A New Day. A New Home. A New Life.</div>
         <a href="#" class="slide-btn">Make a Gift Today</a>
     </div>
 
     <div class="slide fade">
-        <img src="resources.jpg">
+        <img src="images/resources.jpg">
         <div class="text-overlay">Immediate Needs</div>
         <a href="#" class="slide-btn">Learn More</a>
     </div>
