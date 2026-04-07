@@ -9,6 +9,11 @@ header img {
     padding: 20px;
 }
 
+body {
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 
 nav {
     display: flex;
