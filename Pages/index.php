@@ -250,6 +250,26 @@
     }
 </script>
 
+
+<!-- Stats -->
+<div id="impact-stats">
+    <div class="stat-box">
+        <div class="stat-number" data-target="848">0</div>
+        <div class="stat-label">Individuals Served</div>
+    </div>
+
+    <div class="stat-box">
+        <div class="stat-number" data-target="62">0</div>
+        <div class="stat-label">Percent of Women & Children Served</div>
+    </div>
+
+    <div class="stat-box">
+        <div class="stat-number" data-target="93594">0</div>
+        <div class="stat-label">Meals Served</div>
+    </div>
+</div>
+
+
 <!-- Footer motto -->
 <div class='motto'>
     <p>A New Day. A New Home. A New Life.</p>

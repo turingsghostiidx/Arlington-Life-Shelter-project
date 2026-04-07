@@ -297,3 +297,27 @@ nav {
     position: relative;
     z-index: 1;
 }
+
+#impact-stats {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 60px auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    width: 200px;
+}
+
+.stat-number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+.stat-label {
+    font-size: 18px;
+    margin-top: 10px;
+}
