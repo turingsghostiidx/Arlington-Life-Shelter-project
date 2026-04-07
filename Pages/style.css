@@ -298,7 +298,7 @@ nav {
     z-index: 1;
 }
 
-#impact-stats {
+.impact-stats {
     display: flex;
     justify-content: center;
     gap: 60px;
