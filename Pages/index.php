@@ -270,29 +270,29 @@
 </div>
 
 <script>
-        function animateStats() {
-            const stats = document.querySelectorAll('.stat-number');
+            function animateStats() {
+        const stats = document.querySelectorAll('.stat-number');
 
-            stats.forEach(stat => {
-                const target = +stat.getAttribute('data-target');
-                const speed = 50; 
-                let count = 0;
+        stats.forEach(stat => {
+            const target = +stat.getAttribute('data-target');
+            const speed = 50; 
+            let count = 0;
 
-                const updateCount = () => {
-                    const increment = Math.ceil(target / 100);
+            const updateCount = () => {
+                const increment = Math.max(1, Math.ceil(target / 200));
 
-                    if (count < target) {
-                        count += increment;
-                        stat.textContent = count.toLocaleString();
-                        requestAnimationFrame(updateCount);
-                    } else {
-                        stat.textContent = target.toLocaleString();
-                    }
-                };
+                if (count < target) {
+                    count += increment;
+                    stat.textContent = count.toLocaleString();
+                    requestAnimationFrame(updateCount);
+                } else {
+                    stat.textContent = target.toLocaleString();
+                }
+            };
 
-                updateCount();
-            });
-        }
+            updateCount();
+        });
+    }
 
         document.addEventListener("DOMContentLoaded", animateStats);
 </script>
