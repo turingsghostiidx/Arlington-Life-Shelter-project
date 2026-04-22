@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arlington Life Shelter - Mailing List</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="ALS_Logo.jpg" alt="Arlington Life Shelter Logo">
+            </a>
+        </div>
+
+        <nav class="desktop-nav">
+            <ul class="links">
+                <li class="dropdown">
+                    <a href="#">Who We Are</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="mission&history.html">Mission & History</a></li>
+                        <li><a href="frequentQuestions.html">Frequent Questions</a></li>
+                        <li><a href="leadership&board.html">Leadership & Board</a></li>
+                        <li><a href="financials.html">Financials</a></li>
+                        <li><a href="locations.html">Locations</a></li>
+                        <li><a href="jobOpportunities.html">Job Opportunities</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#">How We Help</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="programs&services.html">Programs & Services</a></li>
+                        <li><a href="results.html">Results</a></li>
+                        <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
+                        <li><a href="myths.html">Myths About Homelessness</a></li>
+                        <li><a href="communityResources.html">Community Resources</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#">Get Involved</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="gift.html">Make a Gift</a></li>
+                        <li><a href="immediateNeeds.html">Immediate Needs</a></li>
+                        <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" target="_blank" rel="noopener noreferrer">Buy a Brick</a></li>
+                        <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
+                        <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
+                        <li><a href="PALS.html">PALS</a></li>
+                        <li><a href="virtualTour.html">Virtual Tour</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#">News & Events</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="newsroom.html">Newsroom</a></li>
+                        <li><a href="mailingList.html">Mailing List</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="gift.html" class="donate-btn">Donate</a></li>
+            </ul>
+        </nav>
+
+        <div class="burger" onclick="toggleMenu()">
+            <span></span><span></span><span></span>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <nav>
+            <ul class="links">
+                <li><a href="#">Who We Are</a></li>
+                <li><a href="#">How We Help</a></li>
+                <li><a href="#">Get Involved</a></li>
+                <li><a href="#">News & Events</a></li>
+                <li><a href="#" class="donate-btn">Donate</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- PAGE WRAPPER -->
+    <div class="content-wrapper">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <h3>News & Events</h3>
+            <ul>
+                <li><a href="newsroom.html">Newsroom</a></li>
+                <li><a href="mailingList.html" class="active">Mailing List</a></li>
+            </ul>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="page-content">
+            <h1>Join Our Mailing List</h1>
+
+            <section>
+                <p>
+                    Sign up for our newsletter and join our social community. <b>If you need shelter, please call us at 817-548-9885</b>.
+                </p>
+            </section>
+
+            <section>
+                <p>
+                    Please complete the form below to sign up for our newsletter.
+                </p>
+            </section>
+
+            <section>
+                <form id="signupForm" class="signup-form">
+                    <label for="firstName">First Name *</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                
+                    <label for="lastName">Last Name *</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                
+                    <label for="address">Address *</label>
+                    <input type="text" id="address" name="address" required>
+                
+                    <label for="city">City *</label>
+                    <input type="text" id="city" name="city" required>
+                
+                    <label for="state">State *</label>
+                    <select id="state" name="state" required>
+                        <option value="">Select a State</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="CA">California</option>
+                        <option value="CO">Colorado</option>
+                        <option value="CT">Connecticut</option>
+                        <option value="DE">Delaware</option>
+                        <option value="FL">Florida</option>
+                        <option value="GA">Georgia</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="ID">Idaho</option>
+                        <option value="IL">Illinois</option>
+                        <option value="IN">Indiana</option>
+                        <option value="IA">Iowa</option>
+                        <option value="KS">Kansas</option>
+                        <option value="KY">Kentucky</option>
+                        <option value="LA">Louisiana</option>
+                        <option value="ME">Maine</option>
+                        <option value="MD">Maryland</option>
+                        <option value="MA">Massachusetts</option>
+                        <option value="MI">Michigan</option>
+                        <option value="MN">Minnesota</option>
+                        <option value="MS">Mississippi</option>
+                        <option value="MO">Missouri</option>
+                        <option value="MT">Montana</option>
+                        <option value="NE">Nebraska</option>
+                        <option value="NV">Nevada</option>
+                        <option value="NH">New Hampshire</option>
+                        <option value="NJ">New Jersey</option>
+                        <option value="NM">New Mexico</option>
+                        <option value="NY">New York</option>
+                        <option value="NC">North Carolina</option>
+                        <option value="ND">North Dakota</option>
+                        <option value="OH">Ohio</option>
+                        <option value="OK">Oklahoma</option>
+                        <option value="OR">Oregon</option>
+                        <option value="PA">Pennsylvania</option>
+                        <option value="RI">Rhode Island</option>
+                        <option value="SC">South Carolina</option>
+                        <option value="SD">South Dakota</option>
+                        <option value="TN">Tennessee</option>
+                        <option value="TX">Texas</option>
+                        <option value="UT">Utah</option>
+                        <option value="VT">Vermont</option>
+                        <option value="VA">Virginia</option>
+                        <option value="WA">Washington</option>
+                        <option value="WV">West Virginia</option>
+                        <option value="WI">Wisconsin</option>
+                        <option value="WY">Wyoming</option>
+                    </select>
+                
+                    <label for="postal">Postal Code *</label>
+                    <input type="text" id="postal" name="postal" required>
+                
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <button type="submit">Sign Up</button>
+                </form>                
+            </section>
+        </main>
+
+    </div>
+
+    <!-- Motto Section -->
+    <div class='motto'>
+        <p>A New Day.  A New Home.  A New Life.</p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class='footerTop'>
+            <div class='footer1'>
+                <p>Arlington Life Shelter</p>
+                <p>325 W. Division Street</p>
+                <p>Arlington, Texas 76011</p>
+                <p>Phone (817) 548-9885</p>
+                
+                <a href='contact.html'>
+                    <p>Contact</p>
+                </a>
+
+                <a href="https://www.facebook.com/arlington.life.shelter/" target="_blank" rel="noopener noreferrer">
+                    <img src="facebook.webp" alt="Facebook Icon">
+                </a>
+                
+                <a href="https://www.instagram.com/arlingtonlifeshelter/" target="_blank" rel="noopener noreferrer">
+                    <img src="instagram.webp" alt="Instagram Icon">
+                </a>
+                
+                <a href="https://www.youtube.com/user/ArlingtonLifeShelter" target="_blank" rel="noopener noreferrer">
+                    <img src="youtube.webp" alt="YouTube Icon">
+                </a>
+                
+
+                <p>Arlington Life Shelter is a 501(c)3 organization. Tax Identification 75-2235099.</p>
+            </div>
+
+            <div class='footer2'>
+                <img src='EIGLogo.webp' alt='Excellence in Giving Certified Transparent'>
+                <img src='CharityNav.webp' alt='Charity Navigator - Three-Star'>
+                <img src='silver.webp' alt='Silver Transparancy 2024 - Candid'>
+                <img src='Chamber.webp' alt='Greater Arlington Chamber of Commerce'>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class='footer3'>
+            <p><a href='#'>Privacy Policy</a></p>
+            <p>© 2026 Arlington Life Shelter</p>
+        </div>
+    </footer>
+
+</body>
+</html>
