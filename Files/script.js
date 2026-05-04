@@ -98,15 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const phone = document.getElementById("phone").value;
         const message = document.getElementById("message").value || "(No message provided)";
 
-        const popupMessage = 
-            `Thank you for contacting us!\n\n` +
-            `Here is the information you submitted:\n` +
-            `----------------------------------------\n` +
-            `First Name: ${firstName}\n` +
-            `Last Name: ${lastName}\n` +
-            `Email: ${email}\n` +
-            `Phone: ${phone}\n` +
-            `Message: ${message}`;
+        const popupMessage = `Thank you for contacting us!\n\n` + `Here is the information you submitted:\n` + `----------------------------------------\n` + `First Name: ${firstName}\n` + `Last Name: ${lastName}\n` + `Email: ${email}\n` + `Phone: ${phone}\n` + `Message: ${message}`;
 
         alert(popupMessage);
 
@@ -131,17 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
             email: document.getElementById("email").value
         };
 
-        const popup =
-            `Sign Up Successful!\n\n` +
-            `Here is the information you submitted:\n` +
-            `----------------------------------------\n` +
-            `First Name: ${data.firstName}\n` +
-            `Last Name: ${data.lastName}\n` +
-            `Address: ${data.address}\n` +
-            `City: ${data.city}\n` +
-            `State: ${data.state}\n` +
-            `Postal Code: ${data.postal}\n` +
-            `Email: ${data.email}`;
+        const popup = `Sign Up Successful!\n\n` + `Here is the information you submitted:\n` + `----------------------------------------\n` + `First Name: ${data.firstName}\n` + `Last Name: ${data.lastName}\n` + `Address: ${data.address}\n` + `City: ${data.city}\n` + `State: ${data.state}\n` + `Postal Code: ${data.postal}\n` + `Email: ${data.email}`;
 
         alert(popup);
 

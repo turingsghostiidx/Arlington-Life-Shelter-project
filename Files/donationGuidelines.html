@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap"
+          rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Arlington Life Shelter - Donation Guidelines</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
 
     <script defer src="script.js"></script>
 
@@ -13,241 +17,256 @@
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="ALS_Logo.jpg" alt="Arlington Life Shelter Logo">
-            </a>
-        </div>
-
-        <nav class="desktop-nav">
-            <ul class="links">
-                <li class="dropdown">
-                    <a href="#">Who We Are</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="mission&history.html">Mission & History</a></li>
-                        <li><a href="frequentQuestions.html">Frequent Questions</a></li>
-                        <li><a href="leadership&board.html">Leadership & Board</a></li>
-                        <li><a href="financials.html">Financials</a></li>
-                        <li><a href="locations.html">Locations</a></li>
-                        <li><a href="jobOpportunities.html">Job Opportunities</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">How We Help</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="programs&services.html">Programs & Services</a></li>
-                        <li><a href="results.html">Results</a></li>
-                        <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
-                        <li><a href="myths.html">Myths About Homelessness</a></li>
-                        <li><a href="communityResources.html">Community Resources</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">Get Involved</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="gift.html">Make a Gift</a></li>
-                        <li><a href="immediateNeeds.html">Immediate Needs</a></li>
-                        <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" target="_blank" rel="noopener noreferrer">Buy a Brick</a></li>
-                        <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
-                        <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
-                        <li><a href="PALS.html">PALS</a></li>
-                        <li><a href="virtualTour.html">Virtual Tour</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">News & Events</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="newsroom.html">Newsroom</a></li>
-                        <li><a href="mailingList.html">Mailing List</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="gift.html" class="donate-btn">Donate</a></li>
-            </ul>
-        </nav>
-
-        <div class="burger" onclick="toggleMenu()">
-            <span></span><span></span><span></span>
-        </div>
-    </header>
-
-    <!-- Mobile Navigation -->
-    <div class="mobile-nav">
-        <nav>
-            <ul class="links">
-                <li><a href="#">Who We Are</a></li>
-                <li><a href="#">How We Help</a></li>
-                <li><a href="#">Get Involved</a></li>
-                <li><a href="#">News & Events</a></li>
-                <li><a href="#" class="donate-btn">Donate</a></li>
-            </ul>
-        </nav>
+<!-- Header -->
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img alt="Arlington Life Shelter Logo" src="ALS_Logo.jpg">
+        </a>
     </div>
 
-    <!-- PAGE WRAPPER -->
-    <div class="content-wrapper">
+    <nav class="desktop-nav">
+        <ul class="links">
+            <li class="dropdown">
+                <a href="#">Who We Are</a>
+                <ul class="dropdown-menu">
+                    <li><a href="mission&history.html">Mission & History</a></li>
+                    <li><a href="frequentQuestions.html">Frequent Questions</a></li>
+                    <li><a href="leadership&board.html">Leadership & Board</a></li>
+                    <li><a href="financials.html">Financials</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                    <li><a href="jobOpportunities.html">Job Opportunities</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </li>
 
-        <!-- SIDEBAR -->
-        <aside class="sidebar">
-            <h3>Get Involved</h3>
-            <ul>
-                <li><a href="gift.html">Make a Gift</a></li>
-                <li><a href="immediateNeeds.html">Immediate Needs</a></li>
-                <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" target="_blank" rel="noopener noreferrer">Buy a Brick</a></li>
-                <li><a href="donationGuidelines.html" class="active">Donation Guidelines</a></li>
-                <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
-                <li><a href="PALS.html">PALS</a></li>
-                <li><a href="virtualTour.html">Virtual Tour</a></li>
-            </ul>
-        </aside>
+            <li class="dropdown">
+                <a href="#">How We Help</a>
+                <ul class="dropdown-menu">
+                    <li><a href="programs&services.html">Programs & Services</a></li>
+                    <li><a href="results.html">Results</a></li>
+                    <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
+                    <li><a href="myths.html">Myths About Homelessness</a></li>
+                    <li><a href="communityResources.html">Community Resources</a></li>
+                </ul>
+            </li>
 
-        <!-- MAIN CONTENT -->
-        <main class="page-content">
-            <h1>Donation Guidelines</h1>
+            <li class="dropdown">
+                <a href="#">Get Involved</a>
+                <ul class="dropdown-menu">
+                    <li><a href="gift.html">Make a Gift</a></li>
+                    <li><a href="immediateNeeds.html">Immediate Needs</a></li>
+                    <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" rel="noopener noreferrer"
+                           target="_blank">Buy a Brick</a></li>
+                    <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
+                    <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
+                    <li><a href="PALS.html">PALS</a></li>
+                    <li><a href="virtualTour.html">Virtual Tour</a></li>
+                </ul>
+            </li>
 
-            <section>
-                <p>
-                    <b>Please make note of our policy regarding donations. We appreciate your understanding as we improve our policies and procedures to allow us to best serve our guests. </b>
-                </p>
-            </section>
+            <li class="dropdown">
+                <a href="#">News & Events</a>
+                <ul class="dropdown-menu">
+                    <li><a href="newsroom.html">Newsroom</a></li>
+                    <li><a href="mailingList.html">Mailing List</a></li>
+                </ul>
+            </li>
 
-            <br>
-            <br>
+            <li><a class="donate-btn" href="gift.html">Donate</a></li>
+        </ul>
+    </nav>
 
-            <section>
-                <p>
-                    <b>
-                        Items we can accept
-                        <ul>
-                            <li><a href="immediateNeeds.html" style="color: #0645AD; text-decoration: underline !important;">Current Immediate Needs List</a></li>
-                            <li><a href="https://www.amazon.com/hz/wishlist/ls/UK9I2Y98JKGS/ref=hz_ls_biz_ex" target="_blank" rel="noopener noreferrer" style="color: #0645AD; text-decoration: underline !important;">Amazon Wish List Items</a></li>
-                            <li>Ongoing Needs:</li>
-                                <ul>
-                                    <li>Liquid Laundry Detergent</li>
-                                    <li>Bleach</li>
-                                    <li>Floor cleaner, such as Fabuloso or PineSol</li>
-                                    <li>Paper Towels</li>
-                                    <li>Nitrile Gloves for cleaning</li>
-                                    <li>Paper Plates and Bowls</li>
-                                    <li>Plastic Cutlery</li>
-                                </ul>
-                        </ul>
-                    </b>
-                </p>
-            </section>
+    <div class="burger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+    </div>
+</header>
 
-            <br>
-            <br>
+<!-- Mobile Navigation -->
+<div class="mobile-nav">
+    <nav>
+        <ul class="links">
+            <li><a href="#">Who We Are</a></li>
+            <li><a href="#">How We Help</a></li>
+            <li><a href="#">Get Involved</a></li>
+            <li><a href="#">News & Events</a></li>
+            <li><a class="donate-btn" href="#">Donate</a></li>
+        </ul>
+    </nav>
+</div>
 
-            <section>
-                <p>
-                    Items we CANNOT accept
+<!-- PAGE WRAPPER -->
+<div class="content-wrapper">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h3>Get Involved</h3>
+        <ul>
+            <li><a href="gift.html">Make a Gift</a></li>
+            <li><a href="immediateNeeds.html">Immediate Needs</a></li>
+            <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" rel="noopener noreferrer" target="_blank">Buy
+                a Brick</a></li>
+            <li><a class="active" href="donationGuidelines.html">Donation Guidelines</a></li>
+            <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
+            <li><a href="PALS.html">PALS</a></li>
+            <li><a href="virtualTour.html">Virtual Tour</a></li>
+        </ul>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="page-content">
+        <h1>Donation Guidelines</h1>
+
+        <section>
+            <p>
+                <b>Please make note of our policy regarding donations. We appreciate your understanding as we improve
+                    our policies and procedures to allow us to best serve our guests. </b>
+            </p>
+        </section>
+
+        <br>
+        <br>
+
+        <section>
+            <p>
+                <b>
+                    Items we can accept
                     <ul>
-                        <li>Used clothing, bedding, or linens</li>
-                        <li>New or Used furniture, housewares, appliances, or similar items</li>
-                        <li>Used car seats, baby items, toys, or books</li>
-                        <li>Bikes, large motorized toys for children</li>
-                        <li>Food that is expired, not sealed or packaged</li>
-                    </b>
+                        <li><a href="immediateNeeds.html"
+                               style="color: #0645AD; text-decoration: underline !important;">Current Immediate Needs
+                            List</a></li>
+                        <li><a href="https://www.amazon.com/hz/wishlist/ls/UK9I2Y98JKGS/ref=hz_ls_biz_ex"
+                               rel="noopener noreferrer" style="color: #0645AD; text-decoration: underline !important;"
+                               target="_blank">Amazon Wish List Items</a>
+                        </li>
+                        <li>Ongoing Needs:</li>
+                        <ul>
+                            <li>Liquid Laundry Detergent</li>
+                            <li>Bleach</li>
+                            <li>Floor cleaner, such as Fabuloso or PineSol</li>
+                            <li>Paper Towels</li>
+                            <li>Nitrile Gloves for cleaning</li>
+                            <li>Paper Plates and Bowls</li>
+                            <li>Plastic Cutlery</li>
+                        </ul>
+                    </ul>
+                </b>
+            </p>
+        </section>
+
+        <br>
+        <br>
+
+        <section>
+            <p>
+                Items we CANNOT accept
+            <ul>
+                <li>Used clothing, bedding, or linens</li>
+                <li>New or Used furniture, housewares, appliances, or similar items</li>
+                <li>Used car seats, baby items, toys, or books</li>
+                <li>Bikes, large motorized toys for children</li>
+                <li>Food that is expired, not sealed or packaged</li>
+                </b>
                 </p>
-            </section>
+        </section>
 
-            <br>
-            <br>
+        <br>
+        <br>
 
-            <section>
-                <p>
-                    The shelter works closely with Mission Arlington to provide our guests with items they need during their time at and upon exiting the shelter. These used items may be taken to Mission Arlington. Please contact them directly.
-                </p>
-            </section>
+        <section>
+            <p>
+                The shelter works closely with Mission Arlington to provide our guests with items they need during their
+                time at and upon exiting the shelter. These used items may be taken to Mission Arlington. Please contact
+                them directly.
+            </p>
+        </section>
 
-            <br>
-            <br>
-            <br>
+        <br>
+        <br>
+        <br>
 
-            <section>
-                <p>
-                    <b>Donation Drives</b>
-                    <br><br>
-                    If you are interested in hosting a drive for specific items, we ask that you contact the shelter directly to find out what items are needed most and schedule a time for delivery.
-                    <br><br>
-                    <b>If you are creating marketing material for a donation drive, all collateral must be approved by Arlington Life Shelter prior to distribution. Marketing materials can be sent directly to marketing@arlingtonlifeshelter.org</b>
-                </p>
-            </section>
+        <section>
+            <p>
+                <b>Donation Drives</b>
+                <br><br>
+                If you are interested in hosting a drive for specific items, we ask that you contact the shelter
+                directly to find out what items are needed most and schedule a time for delivery.
+                <br><br>
+                <b>If you are creating marketing material for a donation drive, all collateral must be approved by
+                    Arlington Life Shelter prior to distribution. Marketing materials can be sent directly to
+                    marketing@arlingtonlifeshelter.org</b>
+            </p>
+        </section>
 
-            <br>
-            <br>
+        <br>
+        <br>
 
-            <section>
-                <p>
-                    <b>Donation Dropoff</b>
-                    <br><br>
-                    Only items listed above or from our Immediate Needs List will be accepted during normal shelter hours; Monday- Friday 8am to 7pm.
-                    <br><br>
-                    Donations will also be accepted Saturday and Sunday between 10 am to 5 pm.
-                    <br><br>
-                    Please bring all donations to the main entrance on the east side of the building. Ring the buzzer so someone can assist you.
-                </p>
-            </section>
-        </main>
+        <section>
+            <p>
+                <b>Donation Dropoff</b>
+                <br><br>
+                Only items listed above or from our Immediate Needs List will be accepted during normal shelter hours;
+                Monday- Friday 8am to 7pm.
+                <br><br>
+                Donations will also be accepted Saturday and Sunday between 10 am to 5 pm.
+                <br><br>
+                Please bring all donations to the main entrance on the east side of the building. Ring the buzzer so
+                someone can assist you.
+            </p>
+        </section>
+    </main>
 
-    </div>
+</div>
 
-        <!-- Motto Section -->
-    <div class='motto'>
-        <p>A New Day.  A New Home.  A New Life.</p>
-    </div>
+<!-- Motto Section -->
+<div class='motto'>
+    <p>A New Day. A New Home. A New Life.</p>
+</div>
 
-    <!-- Footer Section -->
-    <footer>
-        <div class='footerTop'>
-            <div class='footer1'>
-                <p>Arlington Life Shelter</p>
-                <p>325 W. Division Street</p>
-                <p>Arlington, Texas 76011</p>
-                <p>Phone (817) 548-9885</p>
-                
-                <a href='contact.html'>
-                    <p>Contact</p>
-                </a>
+<!-- Footer Section -->
+<footer>
+    <div class='footerTop'>
+        <div class='footer1'>
+            <p>Arlington Life Shelter</p>
+            <p>325 W. Division Street</p>
+            <p>Arlington, Texas 76011</p>
+            <p>Phone (817) 548-9885</p>
 
-                <a href="https://www.facebook.com/arlington.life.shelter/" target="_blank" rel="noopener noreferrer">
-                    <img src="facebook.webp" alt="Facebook Icon">
-                </a>
-                
-                <a href="https://www.instagram.com/arlingtonlifeshelter/" target="_blank" rel="noopener noreferrer">
-                    <img src="instagram.webp" alt="Instagram Icon">
-                </a>
-                
-                <a href="https://www.youtube.com/user/ArlingtonLifeShelter" target="_blank" rel="noopener noreferrer">
-                    <img src="youtube.webp" alt="YouTube Icon">
-                </a>
-                
+            <a href='contact.html'>
+                <p>Contact</p>
+            </a>
 
-                <p>Arlington Life Shelter is a 501(c)3 organization. Tax Identification 75-2235099.</p>
-            </div>
+            <a href="https://www.facebook.com/arlington.life.shelter/" rel="noopener noreferrer" target="_blank">
+                <img alt="Facebook Icon" src="facebook.webp">
+            </a>
 
-            <div class='footer2'>
-                <img src='EIGLogo.webp' alt='Excellence in Giving Certified Transparent'>
-                <img src='CharityNav.webp' alt='Charity Navigator - Three-Star'>
-                <img src='silver.webp' alt='Silver Transparancy 2024 - Candid'>
-                <img src='Chamber.webp' alt='Greater Arlington Chamber of Commerce'>
-            </div>
+            <a href="https://www.instagram.com/arlingtonlifeshelter/" rel="noopener noreferrer" target="_blank">
+                <img alt="Instagram Icon" src="instagram.webp">
+            </a>
+
+            <a href="https://www.youtube.com/user/ArlingtonLifeShelter" rel="noopener noreferrer" target="_blank">
+                <img alt="YouTube Icon" src="youtube.webp">
+            </a>
+
+
+            <p>Arlington Life Shelter is a 501(c)3 organization. Tax Identification 75-2235099.</p>
         </div>
 
-        <hr>
-
-        <div class='footer3'>
-            <p><a href='#'>Privacy Policy</a></p>
-            <p>© 2026 Arlington Life Shelter</p>
+        <div class='footer2'>
+            <img alt='Excellence in Giving Certified Transparent' src='EIGLogo.webp'>
+            <img alt='Charity Navigator - Three-Star' src='CharityNav.webp'>
+            <img alt='Silver Transparancy 2024 - Candid' src='silver.webp'>
+            <img alt='Greater Arlington Chamber of Commerce' src='Chamber.webp'>
         </div>
-    </footer>
+    </div>
+
+    <hr>
+
+    <div class='footer3'>
+        <p><a href='#'>Privacy Policy</a></p>
+        <p>© 2026 Arlington Life Shelter</p>
+    </div>
+</footer>
 
 </body>
 </html>

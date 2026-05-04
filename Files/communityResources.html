@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap"
+          rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Arlington Life Shelter - Community Resources</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
 
     <script defer src="script.js"></script>
 
@@ -13,244 +17,248 @@
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="ALS_Logo.jpg" alt="Arlington Life Shelter Logo">
-            </a>
-        </div>
-
-        <nav class="desktop-nav">
-            <ul class="links">
-                <li class="dropdown">
-                    <a href="#">Who We Are</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="mission&history.html">Mission & History</a></li>
-                        <li><a href="frequentQuestions.html">Frequent Questions</a></li>
-                        <li><a href="leadership&board.html">Leadership & Board</a></li>
-                        <li><a href="financials.html">Financials</a></li>
-                        <li><a href="locations.html">Locations</a></li>
-                        <li><a href="jobOpportunities.html">Job Opportunities</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">How We Help</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="programs&services.html">Programs & Services</a></li>
-                        <li><a href="results.html">Results</a></li>
-                        <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
-                        <li><a href="myths.html">Myths About Homelessness</a></li>
-                        <li><a href="communityResources.html">Community Resources</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">Get Involved</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="gift.html">Make a Gift</a></li>
-                        <li><a href="immediateNeeds.html">Immediate Needs</a></li>
-                        <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" target="_blank" rel="noopener noreferrer">Buy a Brick</a></li>
-                        <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
-                        <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
-                        <li><a href="PALS.html">PALS</a></li>
-                        <li><a href="virtualTour.html">Virtual Tour</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">News & Events</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="newsroom.html">Newsroom</a></li>
-                        <li><a href="mailingList.html">Mailing List</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="gift.html" class="donate-btn">Donate</a></li>
-            </ul>
-        </nav>
-
-        <div class="burger" onclick="toggleMenu()">
-            <span></span><span></span><span></span>
-        </div>
-    </header>
-
-    <!-- Mobile Navigation -->
-    <div class="mobile-nav">
-        <nav>
-            <ul class="links">
-                <li><a href="#">Who We Are</a></li>
-                <li><a href="#">How We Help</a></li>
-                <li><a href="#">Get Involved</a></li>
-                <li><a href="#">News & Events</a></li>
-                <li><a href="#" class="donate-btn">Donate</a></li>
-            </ul>
-        </nav>
+<!-- Header -->
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img alt="Arlington Life Shelter Logo" src="ALS_Logo.jpg">
+        </a>
     </div>
 
-    <!-- PAGE WRAPPER -->
-    <div class="content-wrapper">
+    <nav class="desktop-nav">
+        <ul class="links">
+            <li class="dropdown">
+                <a href="#">Who We Are</a>
+                <ul class="dropdown-menu">
+                    <li><a href="mission&history.html">Mission & History</a></li>
+                    <li><a href="frequentQuestions.html">Frequent Questions</a></li>
+                    <li><a href="leadership&board.html">Leadership & Board</a></li>
+                    <li><a href="financials.html">Financials</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                    <li><a href="jobOpportunities.html">Job Opportunities</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </li>
 
-        <!-- SIDEBAR -->
-        <aside class="sidebar">
-            <h3>How We Help</h3>
-            <ul>
-                <li><a href="programs&services.html">Programs & Services</a></li>
-                <li><a href="results.html">Results</a></li>
-                <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
-                <li><a href="myths.html">Myths About Homelessness</a></li>
-                <li><a href="communityResources.html" class="active">Community Resources</a></li>
-            </ul>
-        </aside>
+            <li class="dropdown">
+                <a href="#">How We Help</a>
+                <ul class="dropdown-menu">
+                    <li><a href="programs&services.html">Programs & Services</a></li>
+                    <li><a href="results.html">Results</a></li>
+                    <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
+                    <li><a href="myths.html">Myths About Homelessness</a></li>
+                    <li><a href="communityResources.html">Community Resources</a></li>
+                </ul>
+            </li>
 
-        <!-- MAIN CONTENT -->
-        <main class="page-content">
-            <h1>Community Resources</h1>
+            <li class="dropdown">
+                <a href="#">Get Involved</a>
+                <ul class="dropdown-menu">
+                    <li><a href="gift.html">Make a Gift</a></li>
+                    <li><a href="immediateNeeds.html">Immediate Needs</a></li>
+                    <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" rel="noopener noreferrer"
+                           target="_blank">Buy a Brick</a></li>
+                    <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
+                    <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
+                    <li><a href="PALS.html">PALS</a></li>
+                    <li><a href="virtualTour.html">Virtual Tour</a></li>
+                </ul>
+            </li>
 
-            <br>
+            <li class="dropdown">
+                <a href="#">News & Events</a>
+                <ul class="dropdown-menu">
+                    <li><a href="newsroom.html">Newsroom</a></li>
+                    <li><a href="mailingList.html">Mailing List</a></li>
+                </ul>
+            </li>
 
-            <section>
-                <p>
-                    Listed below you will find a variety of resources that can assist individuals and families experiencing homelessness
-                </p>
-            </section>
+            <li><a class="donate-btn" href="gift.html">Donate</a></li>
+        </ul>
+    </nav>
 
-            <br>
-            <br>
-            <br>
-
-            <section>
-                <p>
-                    <b><i><u>Arlington Shelters</u></i></b><br>
-                    <br>
-                    <br>
-                    <b>Salvation Army Family Life Center</b><br>
-                    817-860-1836<br>
-                    Transitional housing. Non emergency family program (minors). Program emphasis is on helping families become self-sufficient.
-
-                    <br>
-                    <br>
-
-                    <b>ACH Child & Family Services Youth Shelter</b><br>
-                    817-335-4673<br>
-                    Family/Children/Youth services. Emergency safe place locations.
-
-                    <br>
-                    <br>
-
-                    <b>Safe Haven</b><br>
-                    817-548-0583<br>
-                    24 hour emergency shelter.
-                </p>
-            </section>
-
-            <br>
-            <br>
-            <br>
-
-            <section>
-                <p>
-                    <b><i><u>Food & Clothing</u></i></b><br>
-                    <br>
-                    <br>
-                    <b>Mission Arlington</b><br>
-                    817-277-6620<br>
-                    Financial assistance, food, home and personal needs, ID and legal aid.
-
-                    <br>
-                    <br>
-
-                    <b>Arlington Charities</b><br>
-                    817-275-1511<br>
-                    Open Monday-Friday 9:00 am - 1:00 pm
-
-                    <br>
-                    <br>
-
-                    <b>Arlington Urban Ministries</b><br>
-                    817-861-8585<br>
-                    Emergency food pantry. AUM application required.
-
-                    <br>
-                    <br>
-
-                    <b>North Davis Church of Christ- Hearts and Hands Ministries</b><br>
-                    1601 N. Davis, Arlington, Texas 76012<br>
-                    Open Monday - Friday 10:00 am - 11:30 am
-
-                    <br>
-                    <br>
-
-                    <b>St. Maria Goretti Catholic Church- Peace and Justice</b><br>
-                    1200 S. Davis, Arlington, Texas 76013<br>
-                    Open Tuesday and Saturday 8:30 am for the first 30 families.
-                </p>
-            </section>
-
-            <br>
-            <br>
-            <br>
-
-            <section>
-                <p>
-                    <b><i><u>General Assistance</u></i></b><br>
-                    <br>
-                    <br>
-                    <b>Tarrant County Homeless Coalition</b><br>
-                    817-996-8800<br>
-                    300 S. Beach St, Fort Worth, Texas 76105
-
-                    <br>
-                    <br>
-
-                    <b>Arlington Human Service Center</b><br>
-                    401 W. Sanford St, Arlington, Texas 76011<br>
-                    16+ agencies including AIDS Outreach, Alzheimer's Association, Senior Citizens Services of Tarrant County, West Texas Legal Clinic and more.
-                    <br>
-                    <br>
-
-                    <b>Arlington Housing Authority</b><br>
-                    817-275-3351<br>
-                    501 W. Sanford St # 20, Arlington, Texas 76011
-
-                    <br>
-                    <br>
-
-                    <b>Texas Department of Human Services</b><br>
-                    817-461-8273<br>
-                    SNAP (food stamps), Medicaid, and TANF (Temporary Assistance for Needy Families)
-
-                    <br>
-                    <br>
-
-                    <b>Social Security Office</b><br>
-                    972-000-1111<br>
-                    2010 N SH360, Grand Prairie, Texas 75050
-
-                    <br>
-                    <br>
-
-                    <b>Texas Department of Public Safety</b><br>
-                    817-285-1900<br>
-                    Drivers License and ID Cards
-
-                    <br>
-                    <br>
-
-                    <b>Texas Department of Public Safety</b><br>
-                    817-285-1900<br>
-                    Drivers License and ID Cards
-                </p>
-            </section>
-        </main>
-
+    <div class="burger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
     </div>
+</header>
+
+<!-- Mobile Navigation -->
+<div class="mobile-nav">
+    <nav>
+        <ul class="links">
+            <li><a href="#">Who We Are</a></li>
+            <li><a href="#">How We Help</a></li>
+            <li><a href="#">Get Involved</a></li>
+            <li><a href="#">News & Events</a></li>
+            <li><a class="donate-btn" href="#">Donate</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- PAGE WRAPPER -->
+<div class="content-wrapper">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h3>How We Help</h3>
+        <ul>
+            <li><a href="programs&services.html">Programs & Services</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
+            <li><a href="myths.html">Myths About Homelessness</a></li>
+            <li><a class="active" href="communityResources.html">Community Resources</a></li>
+        </ul>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="page-content">
+        <h1>Community Resources</h1>
+
+        <br>
+
+        <section>
+            <p>
+                Listed below you will find a variety of resources that can assist individuals and families experiencing
+                homelessness
+            </p>
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+        <section>
+            <p>
+                <b><i><u>Arlington Shelters</u></i></b><br>
+                <br>
+                <br>
+                <b>Salvation Army Family Life Center</b><br>
+                817-860-1836<br>
+                Transitional housing. Non emergency family program (minors). Program emphasis is on helping families
+                become self-sufficient.
+
+                <br>
+                <br>
+
+                <b>ACH Child & Family Services Youth Shelter</b><br>
+                817-335-4673<br>
+                Family/Children/Youth services. Emergency safe place locations.
+
+                <br>
+                <br>
+
+                <b>Safe Haven</b><br>
+                817-548-0583<br>
+                24 hour emergency shelter.
+            </p>
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+        <section>
+            <p>
+                <b><i><u>Food & Clothing</u></i></b><br>
+                <br>
+                <br>
+                <b>Mission Arlington</b><br>
+                817-277-6620<br>
+                Financial assistance, food, home and personal needs, ID and legal aid.
+
+                <br>
+                <br>
+
+                <b>Arlington Charities</b><br>
+                817-275-1511<br>
+                Open Monday-Friday 9:00 am - 1:00 pm
+
+                <br>
+                <br>
+
+                <b>Arlington Urban Ministries</b><br>
+                817-861-8585<br>
+                Emergency food pantry. AUM application required.
+
+                <br>
+                <br>
+
+                <b>North Davis Church of Christ- Hearts and Hands Ministries</b><br>
+                1601 N. Davis, Arlington, Texas 76012<br>
+                Open Monday - Friday 10:00 am - 11:30 am
+
+                <br>
+                <br>
+
+                <b>St. Maria Goretti Catholic Church- Peace and Justice</b><br>
+                1200 S. Davis, Arlington, Texas 76013<br>
+                Open Tuesday and Saturday 8:30 am for the first 30 families.
+            </p>
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+        <section>
+            <p>
+                <b><i><u>General Assistance</u></i></b><br>
+                <br>
+                <br>
+                <b>Tarrant County Homeless Coalition</b><br>
+                817-996-8800<br>
+                300 S. Beach St, Fort Worth, Texas 76105
+
+                <br>
+                <br>
+
+                <b>Arlington Human Service Center</b><br>
+                401 W. Sanford St, Arlington, Texas 76011<br>
+                16+ agencies including AIDS Outreach, Alzheimer's Association, Senior Citizens Services of Tarrant
+                County, West Texas Legal Clinic and more.
+                <br>
+                <br>
+
+                <b>Arlington Housing Authority</b><br>
+                817-275-3351<br>
+                501 W. Sanford St # 20, Arlington, Texas 76011
+
+                <br>
+                <br>
+
+                <b>Texas Department of Human Services</b><br>
+                817-461-8273<br>
+                SNAP (food stamps), Medicaid, and TANF (Temporary Assistance for Needy Families)
+
+                <br>
+                <br>
+
+                <b>Social Security Office</b><br>
+                972-000-1111<br>
+                2010 N SH360, Grand Prairie, Texas 75050
+
+                <br>
+                <br>
+
+                <b>Texas Department of Public Safety</b><br>
+                817-285-1900<br>
+                Drivers License and ID Cards
+
+                <br>
+                <br>
+
+                <b>Texas Department of Public Safety</b><br>
+                817-285-1900<br>
+                Drivers License and ID Cards
+            </p>
+        </section>
+    </main>
+
+</div>
 
 <!-- Motto Section -->
 <div class='motto'>
-    <p>A New Day.  A New Home.  A New Life.</p>
+    <p>A New Day. A New Home. A New Life.</p>
 </div>
 
 <!-- Footer Section -->
@@ -261,32 +269,32 @@
             <p>325 W. Division Street</p>
             <p>Arlington, Texas 76011</p>
             <p>Phone (817) 548-9885</p>
-            
+
             <a href='contact.html'>
                 <p>Contact</p>
             </a>
 
-            <a href="https://www.facebook.com/arlington.life.shelter/" target="_blank" rel="noopener noreferrer">
-                <img src="facebook.webp" alt="Facebook Icon">
+            <a href="https://www.facebook.com/arlington.life.shelter/" rel="noopener noreferrer" target="_blank">
+                <img alt="Facebook Icon" src="facebook.webp">
             </a>
-            
-            <a href="https://www.instagram.com/arlingtonlifeshelter/" target="_blank" rel="noopener noreferrer">
-                <img src="instagram.webp" alt="Instagram Icon">
+
+            <a href="https://www.instagram.com/arlingtonlifeshelter/" rel="noopener noreferrer" target="_blank">
+                <img alt="Instagram Icon" src="instagram.webp">
             </a>
-            
-            <a href="https://www.youtube.com/user/ArlingtonLifeShelter" target="_blank" rel="noopener noreferrer">
-                <img src="youtube.webp" alt="YouTube Icon">
+
+            <a href="https://www.youtube.com/user/ArlingtonLifeShelter" rel="noopener noreferrer" target="_blank">
+                <img alt="YouTube Icon" src="youtube.webp">
             </a>
-            
+
 
             <p>Arlington Life Shelter is a 501(c)3 organization. Tax Identification 75-2235099.</p>
         </div>
 
         <div class='footer2'>
-            <img src='EIGLogo.webp' alt='Excellence in Giving Certified Transparent'>
-            <img src='CharityNav.webp' alt='Charity Navigator - Three-Star'>
-            <img src='silver.webp' alt='Silver Transparancy 2024 - Candid'>
-            <img src='Chamber.webp' alt='Greater Arlington Chamber of Commerce'>
+            <img alt='Excellence in Giving Certified Transparent' src='EIGLogo.webp'>
+            <img alt='Charity Navigator - Three-Star' src='CharityNav.webp'>
+            <img alt='Silver Transparancy 2024 - Candid' src='silver.webp'>
+            <img alt='Greater Arlington Chamber of Commerce' src='Chamber.webp'>
         </div>
     </div>
 

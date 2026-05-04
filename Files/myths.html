@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap"
+          rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Arlington Life Shelter - Myths About Homelessness</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
 
     <script defer src="script.js"></script>
 
@@ -13,204 +17,237 @@
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="ALS_Logo.jpg" alt="Arlington Life Shelter Logo">
-            </a>
-        </div>
-
-        <nav class="desktop-nav">
-            <ul class="links">
-                <li class="dropdown">
-                    <a href="#">Who We Are</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="mission&history.html">Mission & History</a></li>
-                        <li><a href="frequentQuestions.html">Frequent Questions</a></li>
-                        <li><a href="leadership&board.html">Leadership & Board</a></li>
-                        <li><a href="financials.html">Financials</a></li>
-                        <li><a href="locations.html">Locations</a></li>
-                        <li><a href="jobOpportunities.html">Job Opportunities</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">How We Help</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="programs&services.html">Programs & Services</a></li>
-                        <li><a href="results.html">Results</a></li>
-                        <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
-                        <li><a href="myths.html">Myths About Homelessness</a></li>
-                        <li><a href="communityResources.html">Community Resources</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">Get Involved</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="gift.html">Make a Gift</a></li>
-                        <li><a href="immediateNeeds.html">Immediate Needs</a></li>
-                        <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" target="_blank" rel="noopener noreferrer">Buy a Brick</a></li>
-                        <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
-                        <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
-                        <li><a href="PALS.html">PALS</a></li>
-                        <li><a href="virtualTour.html">Virtual Tour</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">News & Events</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="newsroom.html">Newsroom</a></li>
-                        <li><a href="mailingList.html">Mailing List</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="gift.html" class="donate-btn">Donate</a></li>
-            </ul>
-        </nav>
-
-        <div class="burger" onclick="toggleMenu()">
-            <span></span><span></span><span></span>
-        </div>
-    </header>
-
-    <!-- Mobile Navigation -->
-    <div class="mobile-nav">
-        <nav>
-            <ul class="links">
-                <li><a href="#">Who We Are</a></li>
-                <li><a href="#">How We Help</a></li>
-                <li><a href="#">Get Involved</a></li>
-                <li><a href="#">News & Events</a></li>
-                <li><a href="#" class="donate-btn">Donate</a></li>
-            </ul>
-        </nav>
+<!-- Header -->
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img alt="Arlington Life Shelter Logo" src="ALS_Logo.jpg">
+        </a>
     </div>
 
-    <!-- PAGE WRAPPER -->
-    <div class="content-wrapper">
+    <nav class="desktop-nav">
+        <ul class="links">
+            <li class="dropdown">
+                <a href="#">Who We Are</a>
+                <ul class="dropdown-menu">
+                    <li><a href="mission&history.html">Mission & History</a></li>
+                    <li><a href="frequentQuestions.html">Frequent Questions</a></li>
+                    <li><a href="leadership&board.html">Leadership & Board</a></li>
+                    <li><a href="financials.html">Financials</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                    <li><a href="jobOpportunities.html">Job Opportunities</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </li>
 
-        <!-- SIDEBAR -->
-        <aside class="sidebar">
-            <h3>How We Help</h3>
-            <ul>
-                <li><a href="programs&services.html">Programs & Services</a></li>
-                <li><a href="results.html">Results</a></li>
-                <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
-                <li><a href="myths.html" class="active">Myths About Homelessness</a></li>
-                <li><a href="communityResources.html">Community Resources</a></li>
-            </ul>
-        </aside>
+            <li class="dropdown">
+                <a href="#">How We Help</a>
+                <ul class="dropdown-menu">
+                    <li><a href="programs&services.html">Programs & Services</a></li>
+                    <li><a href="results.html">Results</a></li>
+                    <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
+                    <li><a href="myths.html">Myths About Homelessness</a></li>
+                    <li><a href="communityResources.html">Community Resources</a></li>
+                </ul>
+            </li>
 
-        <!-- MAIN CONTENT -->
-        <main class="page-content">
-            <h1>Myths About Homelessness</h1>
+            <li class="dropdown">
+                <a href="#">Get Involved</a>
+                <ul class="dropdown-menu">
+                    <li><a href="gift.html">Make a Gift</a></li>
+                    <li><a href="immediateNeeds.html">Immediate Needs</a></li>
+                    <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" rel="noopener noreferrer"
+                           target="_blank">Buy a Brick</a></li>
+                    <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
+                    <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
+                    <li><a href="PALS.html">PALS</a></li>
+                    <li><a href="virtualTour.html">Virtual Tour</a></li>
+                </ul>
+            </li>
 
-            <br>
+            <li class="dropdown">
+                <a href="#">News & Events</a>
+                <ul class="dropdown-menu">
+                    <li><a href="newsroom.html">Newsroom</a></li>
+                    <li><a href="mailingList.html">Mailing List</a></li>
+                </ul>
+            </li>
 
-            <section>
-                <h2>10 Myths About Homelessness</h2>
-            </section>
+            <li><a class="donate-btn" href="gift.html">Donate</a></li>
+        </ul>
+    </nav>
 
-            <br>
-            
-            <section>
-                <p>
-                    <b>1. MOST HOMELESS PEOPLE ARE MIDDLE-AGED MEN</b><br>
-                    For many, the word “homeless” conjures up images of scraggly men standing on street corners holding cardboard signs. The face of homelessness is changing. In fact, the fastest growing segments of the homeless population are women and families with children.  The average age of America's homeless is nine (9) years old.
-                </p>
-            </section>
-
-            <br>
-
-            <section>
-                <p>
-                    <b>2. HOMELESS PEOPLE NEED TO “JUST GET A JOB”</b><br>
-                    Getting a job is a challenge for most people in these days, and incredibly difficult for a homeless person. Most lack clean clothes, showers, transportation, a permanent address and phone number. Others have a criminal past, learning disabilities and lack of education that holds them down. Even if they find work, their low income often cannot sustain them.
-                </p>
-            </section>
-
-            <br>
-
-            <section>
-                <p>
-                    <b>3. HOMELESS PEOPLE ARE DANGEROUS.</b><br>
-                    Homelessness is often associated with drugs, alcohol, violence and crime. So yes, life on the streets can be perilous for homeless men and women. But very few crimes are committed by homeless people against those of us who try to help them. At Arlington Life Shelter, the attitude we see most often from homeless men and women is gratitude.
-                </p>
-            </section>
-
-            <br>
-
-            <section>
-                <p>
-                    <b>4. HOMELESS PEOPLE ARE LAZY.</b><br>
-                    Surviving on the street takes more work than we realize. Homeless men and women are often sleep-deprived, cold, wet, and sick. Their minds, hearts and bodies are exhausted. Though help is available, they may have no idea where to begin navigating the maze of social service agencies and bureaucracy. With no transportation and little money, they can spend all day getting to food and maybe an appointment before they need to search for a safe place to sleep. And they do this while lugging their precious few possessions along with them in a bag or backpack. It is not a life of ease.
-                </p>
-            </section>
-
-            <br>
-
-            <section>
-                <p>
-                    <b>5. PEOPLE ARE HOMELESS BY CHOICE.</b><br>
-                    No one starts life with a goal of becoming homeless. People lose jobs and then housing. Women run away to the street to escape domestic violence. Many people have experienced significant trauma and simply cannot cope with life. Others struggle with mental illness, depression or post-traumatic stress. Yes, poor choices can contribute to homelessness. But outside circumstances strongly influence those choices.
-                </p>
-            </section>
-
-            <br>
-
-            <section>
-                <p>
-                    <b>6. IF HOMELESS PEOPLE WANTED TO, THEY COULD PULL THEMSELVES OUT OF IT.</b><br>
-                    Once a man or woman loses a job or a home, getting those things back can feel nearly impossible. Imagine trying to get a job when you have no address to put on a resume, no phone number, no shower and no clean-pressed clothes. Often, things like legal issues, criminal history, mental illness, physical and emotional health hinder progress even more.
-                </p>
-            </section>
-
-            <br>
-
-            <section>
-                <p>
-                    <b>7. PROVIDING FOOD AND SHELTER ONLY ENABLES PEOPLE TO REMAIN HOMELESS.</b><br>
-                    Food and shelter are essentials for life. By offering these and other outreach services, like showers, laundry, restrooms and mail service, we build relationships with people in need. Then we’re able to offer them something more through our recovery programs, like counseling, addiction recovery, emotional healing, education, life skills and job training.
-                </p>
-            </section>
-
-            <br>
-
-            <section>
-                <p>
-                    <b>8. IF WE PROVIDE SUFFICIENT AFFORDABLE HOUSING, HOMELESSNESS WILL END.</b><br>
-                    Putting a roof over the head of a deeply hurting person will not heal emotional wounds, break addiction, create relational stability or establish healthy life skills. Housing can help people who are homeless due to poverty. But it can be a shallow and temporary solution for the many people who are homeless because they are unable to function in a “normal” life.
-                </p>
-            </section>
-
-            <br>
-
-            <section>
-                <p>
-                    <b>9. HOMELESSNESS WILL NEVER HAPPEN TO ME.</b><br>
-                    Talk to the hundreds of homeless men and women we serve each day and they’ll tell you that they never intended or expected to become homeless. They’ve had solid jobs, houses and families. But at some point, life fell apart. They are desperate for a way back home.
-                </p>
-            </section>
-
-            <br>
-
-            <section>
-                <p>
-                    <b>10. HOMELESSNESS WILL NEVER END.</b><br>
-                    Many U.S. cities have established ambitious goals with 10-year plans to end homelessness. While these plans to provide housing and better centralized services to homeless people are important in reducing the scope and duration of homelessness, they will not completely eliminate it everywhere for all time. But homelessness does end—one life at a time. With your help, we continue to restore the lives of hurting men, women and children every day.
-                </p>
-            </section>
-        </main>
-
+    <div class="burger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
     </div>
+</header>
+
+<!-- Mobile Navigation -->
+<div class="mobile-nav">
+    <nav>
+        <ul class="links">
+            <li><a href="#">Who We Are</a></li>
+            <li><a href="#">How We Help</a></li>
+            <li><a href="#">Get Involved</a></li>
+            <li><a href="#">News & Events</a></li>
+            <li><a class="donate-btn" href="#">Donate</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- PAGE WRAPPER -->
+<div class="content-wrapper">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h3>How We Help</h3>
+        <ul>
+            <li><a href="programs&services.html">Programs & Services</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
+            <li><a class="active" href="myths.html">Myths About Homelessness</a></li>
+            <li><a href="communityResources.html">Community Resources</a></li>
+        </ul>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="page-content">
+        <h1>Myths About Homelessness</h1>
+
+        <br>
+
+        <section>
+            <h2>10 Myths About Homelessness</h2>
+        </section>
+
+        <br>
+
+        <section>
+            <p>
+                <b>1. MOST HOMELESS PEOPLE ARE MIDDLE-AGED MEN</b><br>
+                For many, the word “homeless” conjures up images of scraggly men standing on street corners holding
+                cardboard signs. The face of homelessness is changing. In fact, the fastest growing segments of the
+                homeless population are women and families with children. The average age of America's homeless is nine
+                (9) years old.
+            </p>
+        </section>
+
+        <br>
+
+        <section>
+            <p>
+                <b>2. HOMELESS PEOPLE NEED TO “JUST GET A JOB”</b><br>
+                Getting a job is a challenge for most people in these days, and incredibly difficult for a homeless
+                person. Most lack clean clothes, showers, transportation, a permanent address and phone number. Others
+                have a criminal past, learning disabilities and lack of education that holds them down. Even if they
+                find work, their low income often cannot sustain them.
+            </p>
+        </section>
+
+        <br>
+
+        <section>
+            <p>
+                <b>3. HOMELESS PEOPLE ARE DANGEROUS.</b><br>
+                Homelessness is often associated with drugs, alcohol, violence and crime. So yes, life on the streets
+                can be perilous for homeless men and women. But very few crimes are committed by homeless people against
+                those of us who try to help them. At Arlington Life Shelter, the attitude we see most often from
+                homeless men and women is gratitude.
+            </p>
+        </section>
+
+        <br>
+
+        <section>
+            <p>
+                <b>4. HOMELESS PEOPLE ARE LAZY.</b><br>
+                Surviving on the street takes more work than we realize. Homeless men and women are often
+                sleep-deprived, cold, wet, and sick. Their minds, hearts and bodies are exhausted. Though help is
+                available, they may have no idea where to begin navigating the maze of social service agencies and
+                bureaucracy. With no transportation and little money, they can spend all day getting to food and maybe
+                an appointment before they need to search for a safe place to sleep. And they do this while lugging
+                their precious few possessions along with them in a bag or backpack. It is not a life of ease.
+            </p>
+        </section>
+
+        <br>
+
+        <section>
+            <p>
+                <b>5. PEOPLE ARE HOMELESS BY CHOICE.</b><br>
+                No one starts life with a goal of becoming homeless. People lose jobs and then housing. Women run away
+                to the street to escape domestic violence. Many people have experienced significant trauma and simply
+                cannot cope with life. Others struggle with mental illness, depression or post-traumatic stress. Yes,
+                poor choices can contribute to homelessness. But outside circumstances strongly influence those choices.
+            </p>
+        </section>
+
+        <br>
+
+        <section>
+            <p>
+                <b>6. IF HOMELESS PEOPLE WANTED TO, THEY COULD PULL THEMSELVES OUT OF IT.</b><br>
+                Once a man or woman loses a job or a home, getting those things back can feel nearly impossible. Imagine
+                trying to get a job when you have no address to put on a resume, no phone number, no shower and no
+                clean-pressed clothes. Often, things like legal issues, criminal history, mental illness, physical and
+                emotional health hinder progress even more.
+            </p>
+        </section>
+
+        <br>
+
+        <section>
+            <p>
+                <b>7. PROVIDING FOOD AND SHELTER ONLY ENABLES PEOPLE TO REMAIN HOMELESS.</b><br>
+                Food and shelter are essentials for life. By offering these and other outreach services, like showers,
+                laundry, restrooms and mail service, we build relationships with people in need. Then we’re able to
+                offer them something more through our recovery programs, like counseling, addiction recovery, emotional
+                healing, education, life skills and job training.
+            </p>
+        </section>
+
+        <br>
+
+        <section>
+            <p>
+                <b>8. IF WE PROVIDE SUFFICIENT AFFORDABLE HOUSING, HOMELESSNESS WILL END.</b><br>
+                Putting a roof over the head of a deeply hurting person will not heal emotional wounds, break addiction,
+                create relational stability or establish healthy life skills. Housing can help people who are homeless
+                due to poverty. But it can be a shallow and temporary solution for the many people who are homeless
+                because they are unable to function in a “normal” life.
+            </p>
+        </section>
+
+        <br>
+
+        <section>
+            <p>
+                <b>9. HOMELESSNESS WILL NEVER HAPPEN TO ME.</b><br>
+                Talk to the hundreds of homeless men and women we serve each day and they’ll tell you that they never
+                intended or expected to become homeless. They’ve had solid jobs, houses and families. But at some point,
+                life fell apart. They are desperate for a way back home.
+            </p>
+        </section>
+
+        <br>
+
+        <section>
+            <p>
+                <b>10. HOMELESSNESS WILL NEVER END.</b><br>
+                Many U.S. cities have established ambitious goals with 10-year plans to end homelessness. While these
+                plans to provide housing and better centralized services to homeless people are important in reducing
+                the scope and duration of homelessness, they will not completely eliminate it everywhere for all time.
+                But homelessness does end—one life at a time. With your help, we continue to restore the lives of
+                hurting men, women and children every day.
+            </p>
+        </section>
+    </main>
+
+</div>
 
 <!-- Motto Section -->
 <div class='motto'>
-    <p>A New Day.  A New Home.  A New Life.</p>
+    <p>A New Day. A New Home. A New Life.</p>
 </div>
 
 <!-- Footer Section -->
@@ -221,32 +258,32 @@
             <p>325 W. Division Street</p>
             <p>Arlington, Texas 76011</p>
             <p>Phone (817) 548-9885</p>
-            
+
             <a href='contact.html'>
                 <p>Contact</p>
             </a>
 
-            <a href="https://www.facebook.com/arlington.life.shelter/" target="_blank" rel="noopener noreferrer">
-                <img src="facebook.webp" alt="Facebook Icon">
+            <a href="https://www.facebook.com/arlington.life.shelter/" rel="noopener noreferrer" target="_blank">
+                <img alt="Facebook Icon" src="facebook.webp">
             </a>
-            
-            <a href="https://www.instagram.com/arlingtonlifeshelter/" target="_blank" rel="noopener noreferrer">
-                <img src="instagram.webp" alt="Instagram Icon">
+
+            <a href="https://www.instagram.com/arlingtonlifeshelter/" rel="noopener noreferrer" target="_blank">
+                <img alt="Instagram Icon" src="instagram.webp">
             </a>
-            
-            <a href="https://www.youtube.com/user/ArlingtonLifeShelter" target="_blank" rel="noopener noreferrer">
-                <img src="youtube.webp" alt="YouTube Icon">
+
+            <a href="https://www.youtube.com/user/ArlingtonLifeShelter" rel="noopener noreferrer" target="_blank">
+                <img alt="YouTube Icon" src="youtube.webp">
             </a>
-            
+
 
             <p>Arlington Life Shelter is a 501(c)3 organization. Tax Identification 75-2235099.</p>
         </div>
 
         <div class='footer2'>
-            <img src='EIGLogo.webp' alt='Excellence in Giving Certified Transparent'>
-            <img src='CharityNav.webp' alt='Charity Navigator - Three-Star'>
-            <img src='silver.webp' alt='Silver Transparancy 2024 - Candid'>
-            <img src='Chamber.webp' alt='Greater Arlington Chamber of Commerce'>
+            <img alt='Excellence in Giving Certified Transparent' src='EIGLogo.webp'>
+            <img alt='Charity Navigator - Three-Star' src='CharityNav.webp'>
+            <img alt='Silver Transparancy 2024 - Candid' src='silver.webp'>
+            <img alt='Greater Arlington Chamber of Commerce' src='Chamber.webp'>
         </div>
     </div>
 

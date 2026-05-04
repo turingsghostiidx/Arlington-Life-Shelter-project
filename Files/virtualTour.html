@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap"
+          rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Arlington Life Shelter - Virtual Tour</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
 
     <script defer src="script.js"></script>
 
@@ -13,181 +17,186 @@
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="ALS_Logo.jpg" alt="Arlington Life Shelter Logo">
-            </a>
-        </div>
-
-        <nav class="desktop-nav">
-            <ul class="links">
-                <li class="dropdown">
-                    <a href="#">Who We Are</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="mission&history.html">Mission & History</a></li>
-                        <li><a href="frequentQuestions.html">Frequent Questions</a></li>
-                        <li><a href="leadership&board.html">Leadership & Board</a></li>
-                        <li><a href="financials.html">Financials</a></li>
-                        <li><a href="locations.html">Locations</a></li>
-                        <li><a href="jobOpportunities.html">Job Opportunities</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">How We Help</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="programs&services.html">Programs & Services</a></li>
-                        <li><a href="results.html">Results</a></li>
-                        <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
-                        <li><a href="myths.html">Myths About Homelessness</a></li>
-                        <li><a href="communityResources.html">Community Resources</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">Get Involved</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="gift.html">Make a Gift</a></li>
-                        <li><a href="immediateNeeds.html">Immediate Needs</a></li>
-                        <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" target="_blank" rel="noopener noreferrer">Buy a Brick</a></li>
-                        <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
-                        <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
-                        <li><a href="PALS.html">PALS</a></li>
-                        <li><a href="virtualTour.html">Virtual Tour</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">News & Events</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="newsroom.html">Newsroom</a></li>
-                        <li><a href="mailingList.html">Mailing List</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="gift.html" class="donate-btn">Donate</a></li>
-            </ul>
-        </nav>
-
-        <div class="burger" onclick="toggleMenu()">
-            <span></span><span></span><span></span>
-        </div>
-    </header>
-
-    <!-- Mobile Navigation -->
-    <div class="mobile-nav">
-        <nav>
-            <ul class="links">
-                <li><a href="#">Who We Are</a></li>
-                <li><a href="#">How We Help</a></li>
-                <li><a href="#">Get Involved</a></li>
-                <li><a href="#">News & Events</a></li>
-                <li><a href="#" class="donate-btn">Donate</a></li>
-            </ul>
-        </nav>
+<!-- Header -->
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img alt="Arlington Life Shelter Logo" src="ALS_Logo.jpg">
+        </a>
     </div>
 
-    <!-- PAGE WRAPPER -->
-    <div class="content-wrapper">
+    <nav class="desktop-nav">
+        <ul class="links">
+            <li class="dropdown">
+                <a href="#">Who We Are</a>
+                <ul class="dropdown-menu">
+                    <li><a href="mission&history.html">Mission & History</a></li>
+                    <li><a href="frequentQuestions.html">Frequent Questions</a></li>
+                    <li><a href="leadership&board.html">Leadership & Board</a></li>
+                    <li><a href="financials.html">Financials</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                    <li><a href="jobOpportunities.html">Job Opportunities</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </li>
 
-        <!-- SIDEBAR -->
-        <aside class="sidebar">
-            <h3>Get Involved</h3>
-            <ul>
-                <li><a href="gift.html">Make a Gift</a></li>
-                <li><a href="immediateNeeds.html">Immediate Needs</a></li>
-                <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" target="_blank" rel="noopener noreferrer">Buy a Brick</a></li>
-                <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
-                <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
-                <li><a href="PALS.html">PALS</a></li>
-                <li><a href="virtualTour.html" class="active">Virtual Tour</a></li>
-            </ul>
-        </aside>
+            <li class="dropdown">
+                <a href="#">How We Help</a>
+                <ul class="dropdown-menu">
+                    <li><a href="programs&services.html">Programs & Services</a></li>
+                    <li><a href="results.html">Results</a></li>
+                    <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
+                    <li><a href="myths.html">Myths About Homelessness</a></li>
+                    <li><a href="communityResources.html">Community Resources</a></li>
+                </ul>
+            </li>
 
-        <!-- MAIN CONTENT -->
-        <main class="page-content">
-            <h1>Join us for a Tour of the Arlington Life Shelter</h1>
+            <li class="dropdown">
+                <a href="#">Get Involved</a>
+                <ul class="dropdown-menu">
+                    <li><a href="gift.html">Make a Gift</a></li>
+                    <li><a href="immediateNeeds.html">Immediate Needs</a></li>
+                    <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" rel="noopener noreferrer"
+                           target="_blank">Buy a Brick</a></li>
+                    <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
+                    <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
+                    <li><a href="PALS.html">PALS</a></li>
+                    <li><a href="virtualTour.html">Virtual Tour</a></li>
+                </ul>
+            </li>
 
-            <section class="video-container">
-                <iframe 
-                    src="https://www.youtube.com/embed/JrVLDF3J-Ug"
-                    title="Arlington Life Shelter- Virtual Tour"
-                    frameborder="0"
+            <li class="dropdown">
+                <a href="#">News & Events</a>
+                <ul class="dropdown-menu">
+                    <li><a href="newsroom.html">Newsroom</a></li>
+                    <li><a href="mailingList.html">Mailing List</a></li>
+                </ul>
+            </li>
+
+            <li><a class="donate-btn" href="gift.html">Donate</a></li>
+        </ul>
+    </nav>
+
+    <div class="burger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+    </div>
+</header>
+
+<!-- Mobile Navigation -->
+<div class="mobile-nav">
+    <nav>
+        <ul class="links">
+            <li><a href="#">Who We Are</a></li>
+            <li><a href="#">How We Help</a></li>
+            <li><a href="#">Get Involved</a></li>
+            <li><a href="#">News & Events</a></li>
+            <li><a class="donate-btn" href="#">Donate</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- PAGE WRAPPER -->
+<div class="content-wrapper">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h3>Get Involved</h3>
+        <ul>
+            <li><a href="gift.html">Make a Gift</a></li>
+            <li><a href="immediateNeeds.html">Immediate Needs</a></li>
+            <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" rel="noopener noreferrer" target="_blank">Buy
+                a Brick</a></li>
+            <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
+            <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
+            <li><a href="PALS.html">PALS</a></li>
+            <li><a class="active" href="virtualTour.html">Virtual Tour</a></li>
+        </ul>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="page-content">
+        <h1>Join us for a Tour of the Arlington Life Shelter</h1>
+
+        <section class="video-container">
+            <iframe
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
-            </section>
+                    allowfullscreen
+                    frameborder="0"
+                    src="https://www.youtube.com/embed/JrVLDF3J-Ug"
+                    title="Arlington Life Shelter- Virtual Tour">
+            </iframe>
+        </section>
 
-            <br>
-            <br>
+        <br>
+        <br>
 
-            <section>
-                <p>
-                    Come see how your support is paving the way home for neighbors in need!  Join us for an in-person 1-hour tour of our facility.  You’ll meet some staff and learn about our programs and services designed to provide a path to self-sufficiency.
-                </p>
-            </section>
+        <section>
+            <p>
+                Come see how your support is paving the way home for neighbors in need! Join us for an in-person 1-hour
+                tour of our facility. You’ll meet some staff and learn about our programs and services designed to
+                provide a path to self-sufficiency.
+            </p>
+        </section>
 
-            <section>
-                <p>
-                    Tours are in-person and must be scheduled in advance. To attend, please contact President & CEO Stephanie Melchert,  smelchert@arlingtonlifeshelter.org 
-                </p>
-            </section>
-        </main>
+        <section>
+            <p>
+                Tours are in-person and must be scheduled in advance. To attend, please contact President & CEO
+                Stephanie Melchert, smelchert@arlingtonlifeshelter.org
+            </p>
+        </section>
+    </main>
 
-    </div>
+</div>
 
-        <!-- Motto Section -->
-    <div class='motto'>
-        <p>A New Day.  A New Home.  A New Life.</p>
-    </div>
+<!-- Motto Section -->
+<div class='motto'>
+    <p>A New Day. A New Home. A New Life.</p>
+</div>
 
-    <!-- Footer Section -->
-    <footer>
-        <div class='footerTop'>
-            <div class='footer1'>
-                <p>Arlington Life Shelter</p>
-                <p>325 W. Division Street</p>
-                <p>Arlington, Texas 76011</p>
-                <p>Phone (817) 548-9885</p>
-                
-                <a href='contact.html'>
-                    <p>Contact</p>
-                </a>
+<!-- Footer Section -->
+<footer>
+    <div class='footerTop'>
+        <div class='footer1'>
+            <p>Arlington Life Shelter</p>
+            <p>325 W. Division Street</p>
+            <p>Arlington, Texas 76011</p>
+            <p>Phone (817) 548-9885</p>
 
-                <a href="https://www.facebook.com/arlington.life.shelter/" target="_blank" rel="noopener noreferrer">
-                    <img src="facebook.webp" alt="Facebook Icon">
-                </a>
-                
-                <a href="https://www.instagram.com/arlingtonlifeshelter/" target="_blank" rel="noopener noreferrer">
-                    <img src="instagram.webp" alt="Instagram Icon">
-                </a>
-                
-                <a href="https://www.youtube.com/user/ArlingtonLifeShelter" target="_blank" rel="noopener noreferrer">
-                    <img src="youtube.webp" alt="YouTube Icon">
-                </a>
-                
+            <a href='contact.html'>
+                <p>Contact</p>
+            </a>
 
-                <p>Arlington Life Shelter is a 501(c)3 organization. Tax Identification 75-2235099.</p>
-            </div>
+            <a href="https://www.facebook.com/arlington.life.shelter/" rel="noopener noreferrer" target="_blank">
+                <img alt="Facebook Icon" src="facebook.webp">
+            </a>
 
-            <div class='footer2'>
-                <img src='EIGLogo.webp' alt='Excellence in Giving Certified Transparent'>
-                <img src='CharityNav.webp' alt='Charity Navigator - Three-Star'>
-                <img src='silver.webp' alt='Silver Transparancy 2024 - Candid'>
-                <img src='Chamber.webp' alt='Greater Arlington Chamber of Commerce'>
-            </div>
+            <a href="https://www.instagram.com/arlingtonlifeshelter/" rel="noopener noreferrer" target="_blank">
+                <img alt="Instagram Icon" src="instagram.webp">
+            </a>
+
+            <a href="https://www.youtube.com/user/ArlingtonLifeShelter" rel="noopener noreferrer" target="_blank">
+                <img alt="YouTube Icon" src="youtube.webp">
+            </a>
+
+
+            <p>Arlington Life Shelter is a 501(c)3 organization. Tax Identification 75-2235099.</p>
         </div>
 
-        <hr>
-
-        <div class='footer3'>
-            <p><a href='#'>Privacy Policy</a></p>
-            <p>© 2026 Arlington Life Shelter</p>
+        <div class='footer2'>
+            <img alt='Excellence in Giving Certified Transparent' src='EIGLogo.webp'>
+            <img alt='Charity Navigator - Three-Star' src='CharityNav.webp'>
+            <img alt='Silver Transparancy 2024 - Candid' src='silver.webp'>
+            <img alt='Greater Arlington Chamber of Commerce' src='Chamber.webp'>
         </div>
-    </footer>
+    </div>
+
+    <hr>
+
+    <div class='footer3'>
+        <p><a href='#'>Privacy Policy</a></p>
+        <p>© 2026 Arlington Life Shelter</p>
+    </div>
+</footer>
 
 </body>
 </html>

@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap"
+          rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Arlington Life Shelter - Volunteer Opportunities</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
 
     <script defer src="script.js"></script>
 
@@ -13,210 +17,233 @@
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="ALS_Logo.jpg" alt="Arlington Life Shelter Logo">
-            </a>
-        </div>
-
-        <nav class="desktop-nav">
-            <ul class="links">
-                <li class="dropdown">
-                    <a href="#">Who We Are</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="mission&history.html">Mission & History</a></li>
-                        <li><a href="frequentQuestions.html">Frequent Questions</a></li>
-                        <li><a href="leadership&board.html">Leadership & Board</a></li>
-                        <li><a href="financials.html">Financials</a></li>
-                        <li><a href="locations.html">Locations</a></li>
-                        <li><a href="jobOpportunities.html">Job Opportunities</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">How We Help</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="programs&services.html">Programs & Services</a></li>
-                        <li><a href="results.html">Results</a></li>
-                        <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
-                        <li><a href="myths.html">Myths About Homelessness</a></li>
-                        <li><a href="communityResources.html">Community Resources</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">Get Involved</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="gift.html">Make a Gift</a></li>
-                        <li><a href="immediateNeeds.html">Immediate Needs</a></li>
-                        <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" target="_blank" rel="noopener noreferrer">Buy a Brick</a></li>
-                        <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
-                        <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
-                        <li><a href="PALS.html">PALS</a></li>
-                        <li><a href="virtualTour.html">Virtual Tour</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a href="#">News & Events</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="newsroom.html">Newsroom</a></li>
-                        <li><a href="mailingList.html">Mailing List</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="gift.html" class="donate-btn">Donate</a></li>
-            </ul>
-        </nav>
-
-        <div class="burger" onclick="toggleMenu()">
-            <span></span><span></span><span></span>
-        </div>
-    </header>
-
-    <!-- Mobile Navigation -->
-    <div class="mobile-nav">
-        <nav>
-            <ul class="links">
-                <li><a href="#">Who We Are</a></li>
-                <li><a href="#">How We Help</a></li>
-                <li><a href="#">Get Involved</a></li>
-                <li><a href="#">News & Events</a></li>
-                <li><a href="#" class="donate-btn">Donate</a></li>
-            </ul>
-        </nav>
+<!-- Header -->
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img alt="Arlington Life Shelter Logo" src="ALS_Logo.jpg">
+        </a>
     </div>
 
-    <!-- PAGE WRAPPER -->
-    <div class="content-wrapper">
+    <nav class="desktop-nav">
+        <ul class="links">
+            <li class="dropdown">
+                <a href="#">Who We Are</a>
+                <ul class="dropdown-menu">
+                    <li><a href="mission&history.html">Mission & History</a></li>
+                    <li><a href="frequentQuestions.html">Frequent Questions</a></li>
+                    <li><a href="leadership&board.html">Leadership & Board</a></li>
+                    <li><a href="financials.html">Financials</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                    <li><a href="jobOpportunities.html">Job Opportunities</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </li>
 
-        <!-- SIDEBAR -->
-        <aside class="sidebar">
-            <h3>Get Involved</h3>
+            <li class="dropdown">
+                <a href="#">How We Help</a>
+                <ul class="dropdown-menu">
+                    <li><a href="programs&services.html">Programs & Services</a></li>
+                    <li><a href="results.html">Results</a></li>
+                    <li><a href="entranceRequirements.html">Entrance Requirements</a></li>
+                    <li><a href="myths.html">Myths About Homelessness</a></li>
+                    <li><a href="communityResources.html">Community Resources</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Get Involved</a>
+                <ul class="dropdown-menu">
+                    <li><a href="gift.html">Make a Gift</a></li>
+                    <li><a href="immediateNeeds.html">Immediate Needs</a></li>
+                    <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" rel="noopener noreferrer"
+                           target="_blank">Buy a Brick</a></li>
+                    <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
+                    <li><a href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
+                    <li><a href="PALS.html">PALS</a></li>
+                    <li><a href="virtualTour.html">Virtual Tour</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">News & Events</a>
+                <ul class="dropdown-menu">
+                    <li><a href="newsroom.html">Newsroom</a></li>
+                    <li><a href="mailingList.html">Mailing List</a></li>
+                </ul>
+            </li>
+
+            <li><a class="donate-btn" href="gift.html">Donate</a></li>
+        </ul>
+    </nav>
+
+    <div class="burger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+    </div>
+</header>
+
+<!-- Mobile Navigation -->
+<div class="mobile-nav">
+    <nav>
+        <ul class="links">
+            <li><a href="#">Who We Are</a></li>
+            <li><a href="#">How We Help</a></li>
+            <li><a href="#">Get Involved</a></li>
+            <li><a href="#">News & Events</a></li>
+            <li><a class="donate-btn" href="#">Donate</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- PAGE WRAPPER -->
+<div class="content-wrapper">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h3>Get Involved</h3>
+        <ul>
+            <li><a href="gift.html">Make a Gift</a></li>
+            <li><a href="immediateNeeds.html">Immediate Needs</a></li>
+            <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" rel="noopener noreferrer" target="_blank">Buy
+                a Brick</a></li>
+            <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
+            <li><a class="active" href="volunteerOpportunities.html">Volunteer Opportunities</a></li>
+            <li><a href="PALS.html">PALS</a></li>
+            <li><a href="virtualTour.html">Virtual Tour</a></li>
+        </ul>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="page-content">
+        <h1>Volunteer Opportunities</h1>
+
+        <img src="volunteers.webp">
+
+        <section>
+            <p>
+                <b>Volunteer</b>
+                <br>
+                Volunteers are integral to our organization- the support we receive from individuals, groups, and other
+                organizations is crucial in assisting our guests create a path of self-sufficiency. Before completing an
+                application, please read our volunteer requirements and expectations below.
+            </p>
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+        <section>
+            <p>
+                <b>Volunteer Requirements</b>
+                <br>
+                All volunteers are required to:
+                <br>
             <ul>
-                <li><a href="gift.html">Make a Gift</a></li>
-                <li><a href="immediateNeeds.html">Immediate Needs</a></li>
-                <li><a href="https://www.bricksrus.com/donorsite/lifeshelter" target="_blank" rel="noopener noreferrer">Buy a Brick</a></li>
-                <li><a href="donationGuidelines.html">Donation Guidelines</a></li>
-                <li><a href="volunteerOpportunities.html" class="active">Volunteer Opportunities</a></li>
-                <li><a href="PALS.html">PALS</a></li>
-                <li><a href="virtualTour.html">Virtual Tour</a></li>
+                <li><b>Must be age 18 or older.</b> This is to protect the privacy, safety, and dignity of our youngest
+                    guests. Any volunteer under the age of 18 must have a parent or guardian present at all times.
+                    Unsupervised children are not allowed. We recommend that very young children not be brought to the
+                    shelter while parents are attempting to volunteer.
+                </li>
+                <br>
+                <li>Complete the volunteer application and have a background check every two years.</li>
+                <br>
+                <li>Attend a volunteer orientation and training.</li>
+                <br>
+                <li>Receive on-the-job training with a seasoned volunteer or staff member.</li>
+                <br>
+                <li>Please Note: <b>No community restitution or court-ordered volunteer</b> work can be accepted.</li>
             </ul>
-        </aside>
+            </p>
+        </section>
 
-        <!-- MAIN CONTENT -->
-        <main class="page-content">
-            <h1>Volunteer Opportunities</h1>
+        <br>
+        <br>
+        <br>
 
-            <img src="volunteers.webp">
-
-            <section>
-                <p>
-                    <b>Volunteer</b>
-                    <br>
-                    Volunteers are integral to our organization- the support we receive from individuals, groups, and other organizations is crucial in assisting our guests create a path of self-sufficiency. Before completing an application, please read our volunteer requirements and expectations below.
-                </p>
-            </section>
-
+        <section>
+            <p>
+                <b>Ways to Serve:</b>
+                <br>
+            <ul>
+                <li><b>Food Donation Pick Up Helper:</b><br> We need someone that can travel to food establishments in
+                    the area to pick up food items and deliver them to the shelter (located at 325 W. Division in
+                    Arlington). We use these items to feed the 100 residents who live with us as they work to regain
+                    their self-sufficiency. For this position, you must have a TX driver’s license and proof of
+                    insurance for your vehicle. Depending on the pick up selected, you may need a vehicle with some
+                    storage capacity like a truck or SUV. You may also be required to lift up to 25 lbs.
+                </li>
+                <br><br>
+                <li><b>Provide a Meal:</b><br> Grab a team of co-workers, a faith group, or your family and friends and
+                    cook a meal for residents. We need Food Team Volunteers to purchase, prepare, and serve meals. We
+                    need teams to provide breakfast, lunch, or dinner. Bring a small group of friends, coworkers, or
+                    maybe to celebrate a birthday as a way to give back. Email alice.morris@arlingtonlifeshelter.org for
+                    meal guidelines and available dates.
+                </li>
+                <br><br>
+                <li><b>PALS:</b> Partners of Arlington Life Shelter (PALS) is an auxiliary group that fundraises for the
+                    shelter and provides special events such as birthday and holiday parties for the residents.
+                </li>
+            </ul>
             <br>
             <br>
             <br>
+            <b>For more information on how to volunteer, please contact alice.morris@arlingtonlifeshelter.org.</b>
+            </p>
+        </section>
+    </main>
 
-            <section>
-                <p>
-                    <b>Volunteer Requirements</b>
-                    <br>
-                    All volunteers are required to:
-                    <br>
-                    <ul>
-                        <li><b>Must be age 18 or older.</b> This is to protect the privacy, safety, and dignity of our youngest guests. Any volunteer under the age of 18 must have a parent or guardian present at all times.  Unsupervised children are not allowed.  We recommend that very young children not be brought to the shelter while parents are attempting to volunteer.</li>
-                        <br>
-                        <li>Complete the volunteer application and have a background check every two years.</li>
-                        <br>
-                        <li>Attend a volunteer orientation and training.</li>
-                        <br>
-                        <li>Receive on-the-job training with a seasoned volunteer or staff member.</li>
-                        <br>
-                        <li>Please Note: <b>No community restitution or court-ordered volunteer</b> work can be accepted. </li>
-                    </ul>
-                </p>
-            </section>
+</div>
 
-            <br>
-            <br>
-            <br>
+<!-- Motto Section -->
+<div class='motto'>
+    <p>A New Day. A New Home. A New Life.</p>
+</div>
 
-            <section>
-                <p>
-                    <b>Ways to Serve:</b>
-                    <br>
-                    <ul>
-                        <li><b>Food Donation Pick Up Helper:</b><br> We need someone that can travel to food establishments in the area to pick up food items and deliver them to the shelter (located at 325 W. Division in Arlington).  We use these items to feed the 100 residents who live with us as they work to regain their self-sufficiency. For this position, you must have a TX driver’s license and proof of insurance for your vehicle.   Depending on the pick up selected, you may need a vehicle with some storage capacity like a truck or SUV.  You may also be required to lift up to 25 lbs.</li><br><br>
-                        <li><b>Provide a Meal:</b><br> Grab a team of co-workers, a faith group, or your family and friends and cook a meal for residents. We need Food Team Volunteers to purchase, prepare, and serve meals. We need teams to provide breakfast, lunch, or dinner.  Bring a small group of friends, coworkers, or maybe to celebrate a birthday as a way to give back.  Email alice.morris@arlingtonlifeshelter.org for meal guidelines and available dates.</li><br><br>
-                        <li><b>PALS:</b> Partners of Arlington Life Shelter (PALS) is an auxiliary group that fundraises for the shelter and provides special events such as birthday and holiday parties for the residents.</li>
-                    </ul>
-                    <br>
-                    <br>
-                    <br>
-                    <b>For more information on how to volunteer, please contact alice.morris@arlingtonlifeshelter.org.</b>
-                </p>
-            </section>
-        </main>
+<!-- Footer Section -->
+<footer>
+    <div class='footerTop'>
+        <div class='footer1'>
+            <p>Arlington Life Shelter</p>
+            <p>325 W. Division Street</p>
+            <p>Arlington, Texas 76011</p>
+            <p>Phone (817) 548-9885</p>
 
-    </div>
+            <a href='contact.html'>
+                <p>Contact</p>
+            </a>
 
-        <!-- Motto Section -->
-    <div class='motto'>
-        <p>A New Day.  A New Home.  A New Life.</p>
-    </div>
+            <a href="https://www.facebook.com/arlington.life.shelter/" rel="noopener noreferrer" target="_blank">
+                <img alt="Facebook Icon" src="facebook.webp">
+            </a>
 
-    <!-- Footer Section -->
-    <footer>
-        <div class='footerTop'>
-            <div class='footer1'>
-                <p>Arlington Life Shelter</p>
-                <p>325 W. Division Street</p>
-                <p>Arlington, Texas 76011</p>
-                <p>Phone (817) 548-9885</p>
-                
-                <a href='contact.html'>
-                    <p>Contact</p>
-                </a>
+            <a href="https://www.instagram.com/arlingtonlifeshelter/" rel="noopener noreferrer" target="_blank">
+                <img alt="Instagram Icon" src="instagram.webp">
+            </a>
 
-                <a href="https://www.facebook.com/arlington.life.shelter/" target="_blank" rel="noopener noreferrer">
-                    <img src="facebook.webp" alt="Facebook Icon">
-                </a>
-                
-                <a href="https://www.instagram.com/arlingtonlifeshelter/" target="_blank" rel="noopener noreferrer">
-                    <img src="instagram.webp" alt="Instagram Icon">
-                </a>
-                
-                <a href="https://www.youtube.com/user/ArlingtonLifeShelter" target="_blank" rel="noopener noreferrer">
-                    <img src="youtube.webp" alt="YouTube Icon">
-                </a>
-                
+            <a href="https://www.youtube.com/user/ArlingtonLifeShelter" rel="noopener noreferrer" target="_blank">
+                <img alt="YouTube Icon" src="youtube.webp">
+            </a>
 
-                <p>Arlington Life Shelter is a 501(c)3 organization. Tax Identification 75-2235099.</p>
-            </div>
 
-            <div class='footer2'>
-                <img src='EIGLogo.webp' alt='Excellence in Giving Certified Transparent'>
-                <img src='CharityNav.webp' alt='Charity Navigator - Three-Star'>
-                <img src='silver.webp' alt='Silver Transparancy 2024 - Candid'>
-                <img src='Chamber.webp' alt='Greater Arlington Chamber of Commerce'>
-            </div>
+            <p>Arlington Life Shelter is a 501(c)3 organization. Tax Identification 75-2235099.</p>
         </div>
 
-        <hr>
-
-        <div class='footer3'>
-            <p><a href='#'>Privacy Policy</a></p>
-            <p>© 2026 Arlington Life Shelter</p>
+        <div class='footer2'>
+            <img alt='Excellence in Giving Certified Transparent' src='EIGLogo.webp'>
+            <img alt='Charity Navigator - Three-Star' src='CharityNav.webp'>
+            <img alt='Silver Transparancy 2024 - Candid' src='silver.webp'>
+            <img alt='Greater Arlington Chamber of Commerce' src='Chamber.webp'>
         </div>
-    </footer>
+    </div>
+
+    <hr>
+
+    <div class='footer3'>
+        <p><a href='#'>Privacy Policy</a></p>
+        <p>© 2026 Arlington Life Shelter</p>
+    </div>
+</footer>
 
 </body>
 </html>
