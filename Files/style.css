@@ -64,6 +64,16 @@ header {
     z-index: 999;
 }
 
+.dropdown-menu li {
+    padding: 0.5rem 1rem;
+}
+.dropdown-menu li a {
+    color: #3253A1;
+}
+.dropdown-menu li a:hover{
+    color: #203567;
+}
+
 .dropdown.active > .dropdown-menu {
     display: block !important;
 }
@@ -314,14 +324,14 @@ header {
 /* Ring container */
 .stat-ring {
     position: relative;
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
 }
 
 /* SVG full size */
 .stat-ring svg {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     transform: rotate(-90deg);
 }
 
@@ -341,6 +351,7 @@ header {
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
     transition: stroke-dashoffset 1.8s ease-out;
+    transition-delay: 1s;
 }
 
 /* Number inside circle */
@@ -412,7 +423,7 @@ header {
 .sidebar ul li a {
     color: #333;
     font-size: 1rem;
-    padding: 1.5rem 0;
+    padding: 1.5rem 1rem;
     display: block;
     border-left: 3px solid transparent;
     transition: 0.2s;
